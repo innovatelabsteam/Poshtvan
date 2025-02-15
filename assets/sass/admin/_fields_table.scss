@@ -1,0 +1,25 @@
+.mw_table
+{
+    .mw_head
+    {
+        .mw_row
+        {
+            text-align: center;
+        }
+    }
+    .mw_row
+    {
+        display: grid;
+        grid-template-columns: .5fr 2fr 2fr 2fr 3fr 1fr;
+        align-items: center;
+        grid-column-gap: 5px;
+    }
+    .mw_row_wide
+    {
+        text-align: center;
+        background: #f1f1f1;
+        padding: 10px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+}

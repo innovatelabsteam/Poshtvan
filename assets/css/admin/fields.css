@@ -1,0 +1,136 @@
+.mwtc_admin_wrapper input[type=text],
+.mwtc_admin_wrapper select,
+.mwtc_admin_wrapper textarea {
+  width: 350px;
+  display: inline-block;
+  background: #fff;
+  height: 52px;
+  border-radius: 4px;
+  box-shadow: 0 0 40px rgba(26, 78, 171, 0.1);
+  padding: 0 15px;
+  margin: 5px 0;
+}
+.mwtc_admin_wrapper .notice-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.mwtc_admin_wrapper .notice-wrapper .alert {
+  margin: 5px auto;
+  width: 90%;
+  display: block;
+  padding: 20px 3%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.mwtc_admin_wrapper .notice-wrapper .alert.success {
+  background-color: #eefaf2;
+  border: 1px solid #79d57d;
+  color: #4CAF50;
+}
+.mwtc_admin_wrapper .notice-wrapper .alert.warning {
+  background-color: #fffaf0;
+  border: 1px solid #ffe8bc;
+  color: #ffa500;
+}
+.mwtc_admin_wrapper .notice-wrapper .alert.info {
+  background-color: #f0f8ff;
+  border: 1px solid #8ebae1;
+  color: #4575A0;
+}
+.mwtc_admin_wrapper .notice-wrapper .alert.error {
+  background-color: #faeef2;
+  border: 1px solid #ffc9dd;
+  color: #d70150;
+}
+
+.mw_table .mw_head .mw_row {
+  text-align: center;
+}
+.mw_table .mw_row {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 2fr 3fr 1fr;
+  align-items: center;
+  grid-column-gap: 5px;
+}
+.mw_table .mw_row_wide {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.mwtc_admin_wrapper {
+  background-color: white;
+  min-height: 100px;
+  width: 95%;
+  margin: 50px auto;
+  padding: 10px 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.mwtc_admin_wrapper .title {
+  display: flex;
+  align-items: center;
+}
+.mwtc_admin_wrapper .title #new-item-btn {
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #3d4762;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+.mwtc_admin_wrapper .notice-wrapper .update-confirm {
+  display: none;
+}
+.mwtc_admin_wrapper .notice-wrapper .update-confirm .update-confirm-msg {
+  display: flex;
+}
+.mwtc_admin_wrapper .notice-wrapper .update-confirm .update-confirm-msg span:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+}
+.mwtc_admin_wrapper .notice-wrapper .update-confirm .update-confirm-msg span:nth-of-type(2) {
+  margin: 0 20px;
+  background-color: white;
+  color: #1E88E5;
+  padding: 3px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: all 0.3s;
+}
+.mwtc_admin_wrapper .notice-wrapper .update-confirm .update-confirm-msg span:nth-of-type(2):hover {
+  background-color: #1E88E5;
+  color: #fff;
+}
+.mwtc_admin_wrapper #new-record-form.hide {
+  display: none;
+}
+.mwtc_admin_wrapper #new-record-form .item {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  align-items: center;
+}
+.mwtc_admin_wrapper #new-record-form .item.submit-field {
+  margin-top: 10px;
+}
+.mwtc_admin_wrapper #new-record-form .item.submit-field input[type=submit] {
+  grid-area: 1/2;
+}
+.mwtc_admin_wrapper .field-items input[type=text],
+.mwtc_admin_wrapper .field-items select,
+.mwtc_admin_wrapper .field-items textarea {
+  width: 250px;
+}
+.mwtc_admin_wrapper .field-items .mw_body .dashicons-menu {
+  cursor: move;
+}
+.mwtc_admin_wrapper .field-items .remove {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=fields.css.map */

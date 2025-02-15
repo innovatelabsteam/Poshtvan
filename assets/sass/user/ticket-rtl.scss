@@ -1,0 +1,42 @@
+.mihanticket
+{
+    .mihanticket-list
+    {
+        & > .items
+        {
+            & > .item
+            {
+                .inner-data
+                {
+                    .content
+                    {
+                        .main-content-value::after
+                        {
+                            right:-5px;
+                            left:auto;
+                        }
+                        .replies
+                        {
+                            .item
+                            {
+                                &::before
+                                {
+                                    right:-5px;
+                                    left:auto;
+                                }
+                                &.other::before
+                                {
+                                    left:-5px;
+                                    right:auto;
+                                }
+                            }
+                        }
+                    }
+                }
+                .status > span{
+                    float:left;
+                }
+            }
+        }
+    }
+}

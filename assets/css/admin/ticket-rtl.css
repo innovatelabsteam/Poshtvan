@@ -1,0 +1,10 @@
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .status,
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .status {
+  float: right;
+}
+.admin-mihan-ticket .mihanticket-alerts-wrapper {
+  left: 20px;
+  right: auto;
+}
+
+/*# sourceMappingURL=ticket-rtl.css.map */

@@ -1,0 +1,57 @@
+$main_color: #3d4762;
+$info_color: #1E88E5;
+
+.mwtc_admin_wrapper {
+
+    input[type=text],
+    select,
+    textarea {
+        width: 350px;
+        display: inline-block;
+        background: #fff;
+        height: 52px;
+        border-radius: 4px;
+        box-shadow: 0 0 40px rgb(26 78 171 / 10%);
+        padding: 0 15px;
+        margin: 5px 0;
+    }
+
+    .notice-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .alert {
+            margin: 5px auto;
+            width: 90%;
+            display: block;
+            padding: 20px 3%;
+            border-radius: 5px;
+            font-size: 16px;
+
+
+            &.success {
+                background-color: #eefaf2;
+                border: 1px solid #79d57d;
+                color: #4CAF50;
+            }
+
+            &.warning {
+                background-color: #fffaf0;
+                border: 1px solid #ffe8bc;
+                color: #ffa500;
+            }
+
+            &.info {
+                background-color: #f0f8ff;
+                border: 1px solid #8ebae1;
+                color: #4575A0;
+            }
+
+            &.error {
+                background-color: #faeef2;
+                border: 1px solid #ffc9dd;
+                color: #d70150;
+            }
+        }
+    }
+}

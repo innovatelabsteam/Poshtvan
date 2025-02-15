@@ -1,0 +1,47 @@
+// mobile
+@media only screen and (max-width: 480px) {
+    body {
+        .mihanticket {
+            .new-ticket {
+                .form {
+                    .mihanticket-step {
+                        .bottom-btn-wrapper {
+                            flex-direction: column;
+                            gap: 20px;
+
+                            .mwtc-btn {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ipads and tablets
+@media only screen and (max-width: 768px) {
+    body {
+        .mihanticket {
+            .new-ticket {
+                .form {
+                    .mihanticket-step {
+                        .mwtc-orders-list {
+                            grid-template-columns: 1fr;
+                        }
+
+                        &[step="ticket-subject"] {
+                            .ticket-search-result-wrapper {
+                                .mwtc-search-result-items {
+                                    grid-template-columns: 1fr;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

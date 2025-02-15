@@ -1,0 +1,2498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Poshtvan\n"
+"POT-Creation-Date: 2024-10-01 13:39+0330\n"
+"PO-Revision-Date: 2024-10-01 13:40+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: poshtvan.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: lang\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: app/Ticket_Conditions.php:72 app/Ticket_Conditions.php:79
+msgid "The selected order number is invalid."
+msgstr "شماره سفارش انتخابی نامعتبر است."
+
+#: app/Ticket_Conditions.php:85
+msgid "Sorry, this product is no longer supported."
+msgstr "با عرض پوزش، پشتیبانی محصول متوقف شده است."
+
+#: app/Ticket_Conditions.php:91
+msgid ""
+"Sorry, the support for this product is only {{support_days}} days and the "
+"support time has passed."
+msgstr ""
+"با عرض پوزش، پشتیبانی محصول فقط {{support_days}} روز است و از تعداد روز معتبر "
+"آن گذشته است."
+
+#: app/Ticket_Conditions.php:102
+msgid "Sorry, this product is expired subscription."
+msgstr "با عرض پوزش، اشتراک این محصول به اتمام رسیده است."
+
+#: app/Woo_Product_Data_Custom_Field.php:15
+msgid "Product stop support"
+msgstr "توقف پشتیبانی محصول"
+
+#: app/Woo_Product_Data_Custom_Field.php:19
+msgid "Product stop support after ago days"
+msgstr "توقف پشتیبانی پس از تعداد روز گذشته از خرید"
+
+#: app/Woo_Product_Data_Custom_Field.php:23
+msgid "Support ago days"
+msgstr "تعداد روز گذشته از خرید"
+
+#: app/admin_menu.php:19
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: app/admin_menu.php:28
+msgid "General"
+msgstr "عمومی"
+
+#: app/admin_menu.php:32
+msgid "Tickets"
+msgstr "تیکت‌ها"
+
+#: app/admin_menu.php:36
+msgid "Nofications"
+msgstr "اطلاعیه ها"
+
+#: app/admin_menu.php:40
+msgid "Sms notifications"
+msgstr "اطلاع‌رسانی‌های اس‌ام‌اس‌"
+
+#: app/admin_menu.php:44 app/options.php:206
+#: views/admin/settings/tab-woocommerce.php:22
+#: views/admin/settings/tab-woocommerce.php:37
+#: views/admin/settings/tab-woocommerce.php:52
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: app/admin_menu.php:48
+msgid "Artificial Intelligence Bot"
+msgstr "ربات هوش مصنوعی"
+
+#: app/admin_menu.php:53
+msgid "Steps"
+msgstr "مراحل"
+
+#: app/admin_menu.php:56
+msgid "Tools"
+msgstr "ابزار‌ها"
+
+#. Plugin Name of the plugin/theme
+#: app/admin_menu.php:64 app/admin_menu.php:114
+msgid "Poshtvan"
+msgstr "پشتوان"
+
+#: app/admin_menu.php:81
+msgid "License"
+msgstr "لایسنس"
+
+#: app/admin_menu.php:92 views/admin/fields/fields.php:14
+msgid "Fields"
+msgstr "فیلدها"
+
+#: app/admin_menu.php:98
+msgid "Artificial Intelligence"
+msgstr "هوش مصنوعی"
+
+#: app/admin_menu.php:123
+#, php-format
+msgid "Poshtvan page successfully created. You can %s and go to Poshtvan page."
+msgstr "برگه‌ی پشتوان با موفقیت ساخته شد. میتوانید %s و برگه‌ی پشتوان را ببینید."
+
+#: app/admin_menu.php:123
+msgid "Click Here"
+msgstr "اینجا کلیک کنید"
+
+#: app/admin_menu.php:126
+msgid ""
+"Poshtvan page cannot be create in your site, please create it manualy and put "
+"[poshtvan] shortcode as it's content."
+msgstr ""
+"برگه‌ی پشتوان در سایت شما ساخته نشد؛ لطفا برگه را به صورت دستی ایجاد کرده و "
+"شورتکد [poshtvan] را در آن قرار دهید."
+
+#: app/admin_menu.php:141
+msgid "The creation of database tables is finished"
+msgstr "ساخت جدول‌های دیتابیس به پایان رسید"
+
+#: app/admin_menu.php:151
+msgid "No files were found to delete"
+msgstr "هیچ فایلی جهت حذف کردن پیدا نشد"
+
+#: app/admin_menu.php:153
+msgid "All files have been deleted successfully"
+msgstr "همه‌ی فایل‌ها با موفقیت حذف شدند"
+
+#: app/admin_menu.php:162
+msgid "Tickets has been successfully removed from Poshtvan"
+msgstr "تیکت‌ها با موفقیت از روی پشتوان حذف شدند"
+
+#: app/ajax.php:52 app/ajax.php:70 app/ajax.php:123 app/ajax.php:134
+#: app/ajax.php:146 app/license.php:282 app/license.php:314
+msgid "Has Error!"
+msgstr "خطا دارد!"
+
+#: app/ajax.php:55
+msgid "Invalid request"
+msgstr "درخواست نامعتبر است"
+
+#: app/ajax.php:60
+msgid "Has error while deleting field item"
+msgstr "هنگام حذف آیتم مشکلی پیش آمد"
+
+#: app/ajax.php:63
+msgid "Successfully deleting"
+msgstr "با موفقیت حذف شد"
+
+#: app/ajax.php:73
+msgid "Missing some fields"
+msgstr "بعضی از فیلدها وجود ندارد"
+
+#: app/ajax.php:84
+msgid "ID not found for some of fields"
+msgstr "شناسه‌ی بعضی از فیلدها پیدا نشد"
+
+#: app/ajax.php:88
+msgid "Has error in update this field with this id"
+msgstr "به‌روزرسانی فیلد با این آی‌دی با خطا مواجه شد"
+
+#: app/ajax.php:93 app/form/fields.php:24
+msgid "Field name must be entered in English letters"
+msgstr "نام فیلد را باید به صورت انگلیسی وارد کنید"
+
+#: app/ajax.php:108
+msgid "Has error in update this field"
+msgstr "خطایی در به‌روزرسانی این فیلد پیش آمد"
+
+#: app/ajax.php:115
+msgid "Update successfully"
+msgstr "با موفقیت به‌روزرسانی شد"
+
+#: app/ajax.php:137 app/ajax.php:149
+msgid "Invalid license key"
+msgstr "کد لایسنس نامعتبر است"
+
+#: app/ajax.php:159 app/ajax.php:181 app/ajax.php:206 app/ajax.php:264
+#: app/ajax.php:288
+msgid "Has error."
+msgstr "مشکلی وجود دارد."
+
+#: app/ajax.php:163 app/ajax.php:185 app/ajax.php:407
+msgid "Sorry, you are not the ticket owner."
+msgstr "متأسفانه شما ایجاد کننده‌ی این تیکت نیستید."
+
+#: app/ajax.php:169
+msgid "Ticket not edited"
+msgstr "تیکت ویرایش نشد"
+
+#: app/ajax.php:172
+msgid "Successfully edited."
+msgstr "با موفقیت ویرایش شد."
+
+#: app/ajax.php:192
+msgid "Has error in change status operation."
+msgstr "مشکلی در فرایند تغییر وضعیت تیکت به وجود آمد."
+
+#: app/ajax.php:197
+msgid "Ticket Solved!"
+msgstr "تیکت حل شد!"
+
+#: app/ajax.php:211
+msgid "Invalid ticket-ID or ticket status"
+msgstr "شماره‌تیکت یا وضعیت تیکت نامعتبر است"
+
+#: app/ajax.php:219
+msgid "Ticket status has successfully changed"
+msgstr "وضعیت تیکت با موفقیت به روز شد"
+
+#: app/ajax.php:232 app/ajax.php:366
+msgid "No more tickets"
+msgstr "تیکت دیگری وجود ندارد"
+
+#: app/ajax.php:267 app/ajax.php:291
+msgid "TicketID is required!"
+msgstr "شناسه‌ی تیکت مورد نیاز است!"
+
+#: app/ajax.php:272
+msgid "Ticket not found!"
+msgstr "تیکتی یافت نشد!"
+
+#: app/ajax.php:305
+msgid "Ticket content is required!"
+msgstr "محتوای تیکت اجباریست!"
+
+#: app/ajax.php:310 app/ajax.php:412
+msgid "Has error in insert reply."
+msgstr "مشکلی در ثبت پاسخ به وجود آمد."
+
+#: app/ajax.php:320
+msgid "Your Reply Sent."
+msgstr "پاسخ شما با موفقیت ارسال شد."
+
+#: app/ajax.php:331
+msgid "Please complete the form!"
+msgstr "لطفا فرم را تکمیل کنید!"
+
+#: app/ajax.php:347
+msgid "Has error in submit new ticket process."
+msgstr "مشکلی در فرایند ثبت تیکت جدید به وجود آمد."
+
+#: app/ajax.php:356
+msgid "Your ticket successfully submit."
+msgstr "تیکت شما با موفقیت ثبت شد."
+
+#: app/ajax.php:392
+msgid "Please Complete Form."
+msgstr "لطفا فرم را تکمیل کنید."
+
+#: app/ajax.php:421
+msgid "Successfully insert reply"
+msgstr "پاسخ با موفقیت ثبت شد"
+
+#: app/ajax.php:445
+msgid "The order number has been submitted."
+msgstr "شماره سفارش با موفقیت ثبت شد."
+
+#: app/ajax.php:451
+msgid "Failed, try again."
+msgstr "خطایی رخ داد، مجدد تلاش کنید."
+
+#: app/ajax.php:463
+msgid "Missing product id"
+msgstr "شناسه محصول وجود ندارد"
+
+#: app/ajax.php:484
+msgid "Missing search query text"
+msgstr "متن سرچ دریافت نشد"
+
+#: app/ajax.php:505
+msgid "Missing field id value"
+msgstr "مقدار فیلد شناسه یافت نشد"
+
+#: app/ajax.php:530
+msgid "Provider must send!"
+msgstr "ارائه دهنده باید ارسال شود!"
+
+#: app/ajax.php:533
+msgid "Provider is not valid."
+msgstr "ارائه دهنده معتبر نیست."
+
+#: app/ajax.php:561
+msgid "Ai chat disabled."
+msgstr "چت هوش مصنوعی غیرفعال است."
+
+#: app/ajax.php:569
+msgid "This service is currently unavailable."
+msgstr "سرویس در حال حاضر در دسترس نیست."
+
+#: app/ajax.php:574
+msgid "Please type question..."
+msgstr "لطفا سوال را تایپ کنید..."
+
+#: app/ajax.php:579
+msgid "No response received."
+msgstr "هیچ پاسخی دریافت نشد."
+
+#: app/ajax.php:582
+msgid "The response is invalid, please try again."
+msgstr "پاسخ نامعتبر است، لطفا دوباره امتحان کنید."
+
+#: app/assets.php:77 app/file_uploader.php:57
+msgid "Invalid File Size"
+msgstr "سایز فایل نامعتبر است"
+
+#: app/assets.php:78
+msgid "Successfully copied"
+msgstr "با موفقیت کپی شد"
+
+#: app/assets.php:79 views/admin/ticket/tickets.php:3
+#: views/user/ticket/tickets.php:8
+msgid "Please Wait..."
+msgstr "لطفا صبر کنید..."
+
+#: app/assets.php:80
+msgid "Loading"
+msgstr "در حال بارگذاری"
+
+#: app/assets.php:81
+msgid "Has error"
+msgstr "مشکلی وجود دارد"
+
+#: app/assets.php:82
+msgid "Invalid order number"
+msgstr "شماره سفارش معتبر نیست"
+
+#: app/assets.php:151 views/admin/settings/tab-tickets.php:25
+msgid "Name"
+msgstr "نام"
+
+#: app/assets.php:152 views/admin/settings/tab-tickets.php:24
+msgid "Slug"
+msgstr "نامک"
+
+#: app/assets.php:153
+msgid "Are you sure you want to delete this field?"
+msgstr "از حذف کردن این فیلد مطمئن هستید؟"
+
+#: app/assets.php:154
+msgid "Ticket content"
+msgstr "محتوای تیکت"
+
+#: app/assets.php:155
+msgid "Loading SMS provider settings"
+msgstr "در حال لود کردن تنظیمات سامانه پیامکی"
+
+#: app/config.php:23
+msgid "Canned Responses"
+msgstr "پاسخ‌های آماده"
+
+#: app/config.php:24
+msgid "Canned Response"
+msgstr "پاسخ آماده"
+
+#: app/config.php:63
+#, php-format
+msgid ""
+"This tables are not exists in your database ( %s ), To avoid causing problems, "
+"you can recreate the deleted tables from the Poshtvan > Settings > Tools > "
+"Create Deleted Tables section."
+msgstr ""
+"این جدول‌ها در دیتابیس سایت شما وجود ندارند ( %s )، برای جلوگیری از ایجاد مشکل "
+"میتوانید از بخش پشتوان > تنظیمات > ابزارها > ساخت جدول‌های حذف شده دوباره آن‌ها "
+"را بسازید.‬"
+
+#: app/faq.php:11 views/user/ticket/new-steps-mode.php:16
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: app/faq.php:23 app/faq.php:57 views/user/ticket/replies.php:15
+msgid "Product"
+msgstr "محصول"
+
+#: app/faq.php:24
+msgid "FAQ Items"
+msgstr "آیتم‌های سؤالات متداول"
+
+#: app/faq.php:40
+msgid "The number of items cannot be less than 1"
+msgstr "تعداد آیتم‌ها نمیتواند کوچکتر از ۱ باشد"
+
+#: app/faq.php:59
+msgid "Choose product"
+msgstr "انتخاب محصول"
+
+#: app/file_uploader.php:52 app/tickets.php:283 app/tickets.php:300
+msgid "Invalid File Type"
+msgstr "نوع فایل نامعتبر است"
+
+#: app/file_uploader.php:71
+msgid "Image"
+msgstr "عکس"
+
+#: app/file_uploader.php:72
+msgid "Video"
+msgstr "ویدیو"
+
+#: app/file_uploader.php:73
+msgid "Audio"
+msgstr "صوتی"
+
+#: app/file_uploader.php:74 app/form/fields.php:69
+#: views/admin/fields/fields.php:30 views/admin/settings/tab-ai.php:73
+msgid "Text"
+msgstr "متنی"
+
+#: app/file_uploader.php:75
+msgid "Compressed"
+msgstr "فایل‌فشرده"
+
+#: app/file_uploader.php:76
+msgid "PDF"
+msgstr "پی‌دی‌اف"
+
+#: app/form/fields.php:19
+msgid "Please complete all fields"
+msgstr "لطفا تمام فیلدها را پر کنید"
+
+#: app/form/fields.php:36
+msgid "New field is successfully added"
+msgstr "فیلد جدید با موفقیت افزوده شد"
+
+#: app/form/fields.php:38
+msgid "Sorry, Field is not added successfully"
+msgstr "متأسفیم، فیلد مورد نظر اضافه نشد"
+
+#: app/form/fields.php:48
+msgid "No any fields found"
+msgstr "هیچ آیتمی پیدا نشد"
+
+#: app/form/fields.php:74 views/admin/fields/fields.php:36
+msgid "Not required"
+msgstr "الزامی نیست"
+
+#: app/form/fields.php:75 views/admin/fields/fields.php:37
+#: views/admin/fields/fields.php:53
+msgid "Required"
+msgstr "الزامی"
+
+#: app/form/fields.php:113
+msgid "Missing value for this field"
+msgstr "مقداری برای این فیلد پیدا نشد"
+
+#: app/license.php:92
+msgid "Poshtvan license has been deactivated, please activate it"
+msgstr "لایسنس پشتوان غیرفعال شده است؛ لطفا آن را فعال کنید"
+
+#: app/license.php:176 app/notice.php:148
+msgid "Get Started"
+msgstr "بزن بریم"
+
+#: app/license.php:177
+msgid "Remind later"
+msgstr "بعدا یادآوری کن"
+
+#: app/license.php:227 app/license.php:296 app/license.php:326
+msgid "An error occurred!"
+msgstr "یک خطا رخ داده است!"
+
+#: app/license.php:253
+msgid "Missing license key"
+msgstr "کد لایسنس وجود ندارد"
+
+#: app/license.php:268
+msgid "License is inactive."
+msgstr "لایسنس غیرفعال است."
+
+#: app/license.php:274 app/license.php:304
+msgid "Poshtvan is active with this license key"
+msgstr "پشتوان شما با این لایسنس فعال است"
+
+#: app/license.php:303
+msgid "Successfully activated."
+msgstr "با موفقیت فعال شد."
+
+#: app/license.php:307
+msgid ""
+"License key is invalid or the number of activation has exceeded the allowed "
+"limit."
+msgstr "کد لایسنس نامعتبر است یا اینکه تعداد سایت های فعال از حد مجاز گذشته است."
+
+#: app/license.php:333
+msgid "Successfully deactivated."
+msgstr "با موفقیت غیرفعال شد."
+
+#: app/license.php:334
+msgid "License is inactive"
+msgstr "لایسنس غیر فعال شده است"
+
+#: app/options.php:114
+msgid "Slug value must be entered in english letters"
+msgstr "نامک فیلد باید به صورت انگلیسی وارد شود"
+
+#: app/options.php:205
+msgid "MihanPanel"
+msgstr "میهن‌پنل"
+
+#: app/options.php:356
+msgid "What product do you need help with?"
+msgstr "در مورد چه محصولی نیاز به راهنمایی دارید؟"
+
+#: app/options.php:360
+msgid "Frequently asked questions about this product"
+msgstr "سؤالات متداول این محصول"
+
+#: app/options.php:364
+msgid "Responsive intelligent robot"
+msgstr "ربات هوشمند پاسخگو"
+
+#: app/options.php:368
+msgid "Describe your problem"
+msgstr "مشکل خود را توضیح دهید"
+
+#: app/options.php:379 views/user/ticket/faq.php:20
+msgid "I did not find the answer to my question"
+msgstr "جواب سؤالم رو پیدا نکردم"
+
+#: app/orders.php:23
+msgid "You can not submit new ticket for this product"
+msgstr "شما نمی‌توانید برای این محصول تیکت جدیدی ثبت کنید"
+
+#: app/orders.php:32
+msgid "Please choose order item"
+msgstr "لطفا آیتم سفارش را انتخاب کنید"
+
+#: app/orders.php:102 app/orders.php:141
+msgid "Orders"
+msgstr "سفارش‌ها"
+
+#: app/orders.php:108
+msgid "Choose your item"
+msgstr "آیتم مورد نظر را انتخاب کنید"
+
+#: app/orders.php:117 views/admin/settings/tab-tickets.php:72
+msgid "No any items found"
+msgstr "هیچ آیتمی پیدا نشد"
+
+#: app/orders.php:156
+msgid "Order ID: "
+msgstr "شماره سفارش: "
+
+#: app/providers/AiProviders/Hooshina.php:245
+msgid "The access token is invalid."
+msgstr "توکن دسترسی نامعتبر است."
+
+#: app/providers/AiProviders/Hooshina.php:252
+msgid "Access to ai was not approved."
+msgstr "دسترسی به هوش مصنوعی تایید نشد."
+
+#: app/providers/AiProviders/Hooshina.php:258
+msgid "Access to ai has been successfully activated."
+msgstr "دسترسی به هوش مصنوعی با موفقیت انجام شد."
+
+#: app/providers/smsProvider.php:64
+msgid "Meli Payamak"
+msgstr "ملی پیامک"
+
+#: app/providers/smsProvider.php:68
+msgid "Sabanovin"
+msgstr "صبانوین"
+
+#: app/providers/smsProviders/melipayamak.php:98
+#: app/providers/smsProviders/sabanovin.php:42
+msgid "Mellipayamak settings"
+msgstr "تنظیمات ملی پیامک"
+
+#: app/providers/smsProviders/melipayamak.php:100
+#: app/providers/smsProviders/sabanovin.php:44
+msgid "Account Credit"
+msgstr "اعتبار حساب"
+
+#: app/providers/smsProviders/melipayamak.php:105
+#: views/admin/settings/tab-notifications.php:39
+#: views/admin/settings/tab-notifications.php:74
+#: views/admin/settings/tab-notifications.php:110
+#: views/admin/settings/tab-notifications.php:145
+#: views/admin/settings/tab-sms-notifications.php:109
+#: views/admin/settings/tab-sms-notifications.php:166
+#: views/admin/settings/tab-sms-notifications.php:223
+#: views/admin/settings/tab-sms-notifications.php:279
+msgid "Username"
+msgstr "نام کاربری"
+
+#: app/providers/smsProviders/melipayamak.php:109
+msgid "Password"
+msgstr "رمز عبور"
+
+#: app/providers/smsProviders/melipayamak.php:113
+#: app/providers/smsProviders/sabanovin.php:48
+msgid "Gateway Number"
+msgstr "شماره درگاه"
+
+#: app/providers/smsProviders/melipayamak.php:116
+#: app/providers/smsProviders/sabanovin.php:55
+msgid ""
+"If you are using pattern feature in your sms-provider, just enter Poshtvan pre-"
+"defined variables in new line according the variables order defined in sms "
+"provider patterns for sms content field value; like this:"
+msgstr ""
+"اگر از قابلیت الگو در سامانه‌پیامکی خود استفاده میکنید، کافیست به عنوان محتوای "
+"پیامک، متغیر‌های از پیش تعیین شده‌ی پشتوان را براساس الگوی تعریف شده در پنل "
+"تنظیمات سامانه‌پیامکی‌تان در خط جدید وارد کنید؛ مثال:"
+
+#: app/providers/smsProviders/sabanovin.php:33
+#, php-format
+msgid "%s Toman"
+msgstr "%s تومان"
+
+#: app/providers/smsProviders/sabanovin.php:52
+msgid "Gateway API Key"
+msgstr "API درگاه"
+
+#: app/providers/smsProviders/wpsms.php:21
+msgid "Config your sms provider settings from WpSms dashboard"
+msgstr "تنظیمات سامانه پیامکی خود را از طریق داشبورد WP-SMS انجام دهید"
+
+#: app/providers/smsProviders/wpsms.php:27
+msgid ""
+"Please activate WP-SMS plugin then config your sms provider settings from WP-"
+"SMS dashboard"
+msgstr ""
+"لطفا پلاگین WP-SMS را فعال کنید سپس تنظیمات سامانه پیامکی خود را از طریق "
+"داشبورد آن انجام دهید"
+
+#: app/providers/smsProviders/wpsms.php:41
+msgid "Has error in send sms"
+msgstr "مشکلی در ارسال پیامک وجود دارد"
+
+#: app/providers/smsProviders/wpsms.php:45
+msgid "Sms send successfully"
+msgstr "ارسال پیامک با موفقیت انجام شد"
+
+#: app/shortcodes.php:21
+msgid "You must logged-in first before can submit new ticket."
+msgstr "برای ارسال تیکت باید ابتدا وارد حساب کاربری خود شوید."
+
+#: app/tickets.php:107
+msgid "Pending"
+msgstr "منتظر پاسخ"
+
+#: app/tickets.php:108
+msgid "On Hold"
+msgstr "در حال بررسی"
+
+#: app/tickets.php:109
+msgid "Answered"
+msgstr "پاسخ داده شده"
+
+#: app/tickets.php:117
+msgid "User sovled ticket"
+msgstr "حل شده از سمت کاربر"
+
+#: views/admin/faq/item.php:3
+msgid "Default title"
+msgstr "عنوان پیشفرض"
+
+#: views/admin/faq/item.php:4
+msgid "Default content"
+msgstr "محتوای پیشفرض"
+
+#: views/admin/faq/item.php:11 views/admin/ticket/ticket-content.php:64
+msgid "Title"
+msgstr "عنوان"
+
+#: views/admin/faq/item.php:21
+msgid "Item title"
+msgstr "عنوان"
+
+#: views/admin/faq/item.php:25
+msgid "Content"
+msgstr "محتوا"
+
+#: views/admin/faq/items.php:4 views/admin/settings/tab-tickets.php:15
+#: views/admin/settings/tab-tickets.php:56
+msgid "Add new"
+msgstr "افزودن"
+
+#: views/admin/fields/fields.php:8
+msgid "Do you want to save changes?"
+msgstr "میخواهید تغییرات ذخیره شود؟"
+
+#: views/admin/fields/fields.php:9
+msgid "Yes"
+msgstr "بله"
+
+#: views/admin/fields/fields.php:15
+msgid "New Item"
+msgstr "آیتم جدید"
+
+#: views/admin/fields/fields.php:20 views/admin/fields/fields.php:21
+#: views/admin/fields/fields.php:50
+msgid "Field Name"
+msgstr "نام فیلد"
+
+#: views/admin/fields/fields.php:20 views/admin/fields/fields.php:50
+msgid "English"
+msgstr "انگلیسی"
+
+#: views/admin/fields/fields.php:24
+msgid "Field Label"
+msgstr "نام نمایشی فیلد"
+
+#: views/admin/fields/fields.php:25 views/admin/fields/fields.php:51
+msgid "Label"
+msgstr "نام نمایشی"
+
+#: views/admin/fields/fields.php:28 views/admin/fields/fields.php:52
+msgid "Type"
+msgstr "نوع"
+
+#: views/admin/fields/fields.php:34
+msgid "Is Required?"
+msgstr "الزامی است؟"
+
+#: views/admin/fields/fields.php:41
+msgid "Submit"
+msgstr "ثبت"
+
+#: views/admin/license.php:11
+msgid "License Key"
+msgstr "لایسنس"
+
+#: views/admin/license.php:22
+msgid "Activate License"
+msgstr "فعالسازی لایسنس"
+
+#: views/admin/license.php:23
+msgid "Deactivate License"
+msgstr "غیرفعال کردن لایسنس"
+
+#: views/admin/license.php:24
+msgid "Get License Key"
+msgstr "دریافت کد لایسنس"
+
+#: views/admin/settings/settings.php:17
+msgid "Welcome to Poshtvan"
+msgstr "به پشتوان خوش‌آمدید"
+
+#: views/admin/settings/settings.php:42
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: views/admin/settings/tab-ai.php:14
+msgid "Artificial Intelligence Guide"
+msgstr "راهنمای هوش مصنوعی"
+
+#: views/admin/settings/tab-ai.php:15
+msgid ""
+"You can add artificial intelligence chat feature to the ticket registration "
+"form."
+msgstr "می توانید قابلیت چت هوش مصنوعی را به فرم ثبت تیکت اضافه کنید."
+
+#: views/admin/settings/tab-ai.php:21
+msgid "Revoke Connection"
+msgstr "لغو اتصال"
+
+#: views/admin/settings/tab-ai.php:26
+msgid "Connect with Hooshina"
+msgstr "اتصال با هوشینا"
+
+#: views/admin/settings/tab-ai.php:37
+msgid "Wallet"
+msgstr "کیف پول"
+
+#: views/admin/settings/tab-ai.php:38
+msgid "Choose wallet"
+msgstr "انتخاب کیف پول"
+
+#: views/admin/settings/tab-ai.php:42 views/admin/settings/tab-ai.php:62
+msgid "Dollar"
+msgstr "دلار"
+
+#: views/admin/settings/tab-ai.php:46
+msgid "Rial"
+msgstr "ریال"
+
+#: views/admin/settings/tab-ai.php:51
+msgid "Wallet Balance"
+msgstr "موجودی کیف پول"
+
+#: views/admin/settings/tab-ai.php:56
+msgid "Toman"
+msgstr "تومان"
+
+#: views/admin/settings/tab-ai.php:70
+msgid "Help text"
+msgstr "متن راهنما"
+
+#: views/admin/settings/tab-ai.php:71
+msgid "The text below the ai bot box is displayed."
+msgstr "زیر جعبه چت نمایش داده می شود."
+
+#: views/admin/settings/tab-ai.php:79
+msgid "Support Hooshina"
+msgstr "حمایت از هوشینا"
+
+#: views/admin/settings/tab-ai.php:80
+msgid "Support text is displayed below the chat box."
+msgstr "متن حمایتی زیر جعبه چت نمایش داده می شود."
+
+#: views/admin/settings/tab-ai.php:84
+msgid "Deactivation"
+msgstr "غیرفعالسازی"
+
+#: views/admin/settings/tab-ai.php:91
+msgid "To use ai, the multi-step mode of the ticket form must be active."
+msgstr "برای استفاده از هوش مصنوعی باید حالت چند مرحله ای فرم تیکت فعال باشد."
+
+#: views/admin/settings/tab-general.php:7
+msgid "Operators"
+msgstr "اپراتور‌ها"
+
+#: views/admin/settings/tab-general.php:8
+msgid "Choose image that you want to use as an avatar of operator."
+msgstr "تصویری که میخواهید به عنوان آواتار اپراتور نمایش داده شود را انتخاب کنید."
+
+#: views/admin/settings/tab-general.php:10
+msgid "Operator Avatar"
+msgstr "آواتار اپراتور"
+
+#: views/admin/settings/tab-general.php:15
+msgid "Remove"
+msgstr "حذف"
+
+#: views/admin/settings/tab-general.php:20 views/admin/settings/tab-general.php:24
+msgid "Operator display name"
+msgstr "نام نمایشی اپراتور"
+
+#: views/admin/settings/tab-general.php:21
+msgid "You can use this name instead of operator user display name."
+msgstr "می‌توانید از این نام به جای نام نمایشی اپراتور پشتیبانی استفاده کنید."
+
+#: views/admin/settings/tab-general.php:29
+msgid "Roles"
+msgstr "نقش‌های کاربری"
+
+#: views/admin/settings/tab-general.php:30
+msgid "Which of the roles has access to ticket list?"
+msgstr "کدام یک از نقش‌ها بتوانند به لیست تیکت‌ها دسترسی داشته باشند؟"
+
+#: views/admin/settings/tab-general.php:32
+msgid "Select roles"
+msgstr "نقش‌ها را انتخاب کنید"
+
+#: views/admin/settings/tab-general.php:48
+msgid "Date type"
+msgstr "گیرنده‌ی تاریخ"
+
+#: views/admin/settings/tab-general.php:49
+msgid "Choose date type"
+msgstr "نوع تاریخ را انتخاب کنید"
+
+#: views/admin/settings/tab-general.php:53
+msgid "Solar Calendar"
+msgstr "تقویم خورشیدی"
+
+#: views/admin/settings/tab-general.php:57
+msgid "Gregorian Calendar"
+msgstr "تقویم میلادی"
+
+#: views/admin/settings/tab-general.php:62
+msgid "File uploading"
+msgstr "آپلود فایل"
+
+#: views/admin/settings/tab-general.php:63
+msgid "File uploading max size"
+msgstr "حداکثر مجاز حجم آپلود فایل"
+
+#: views/admin/settings/tab-general.php:65
+msgid "Enter value in MegaByte format"
+msgstr "مقدار را در حالت مگابایت وارد کنید"
+
+#: views/admin/settings/tab-general.php:69
+msgid "Allowed file types"
+msgstr "فایل‌های مجاز"
+
+#: views/admin/settings/tab-general.php:70
+msgid "What types of files can users upload?"
+msgstr "آپلود کدام نوع از فایل‌ها توسط کاربران مجاز است؟"
+
+#: views/admin/settings/tab-general.php:85
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#: views/admin/settings/tab-general.php:87
+msgid "Before new ticket message"
+msgstr "پیام بالای فرم ثبت تیکت جدید"
+
+#: views/admin/settings/tab-general.php:91
+msgid "Before new ticket message box type"
+msgstr "نوع پیام بالای فرم ثبت تیکت جدید"
+
+#: views/admin/settings/tab-general.php:98
+msgid "Success"
+msgstr "موفقیت"
+
+#: views/admin/settings/tab-general.php:102
+msgid "info"
+msgstr "اطلاع رسانی"
+
+#: views/admin/settings/tab-general.php:106
+msgid "Warning"
+msgstr "هشدار"
+
+#: views/admin/settings/tab-general.php:110
+msgid "Error"
+msgstr "خطا"
+
+#: views/admin/settings/tab-general.php:116
+#: views/admin/settings/tab-general.php:119
+msgid "Prefix text for replies"
+msgstr "متن پیشوند برای پاسخ‌ها"
+
+#: views/admin/settings/tab-general.php:117
+msgid "Show this text as a prefix of operator replies."
+msgstr "این متن به عنوان متن پیشوند در پاسخ تیکت‌ها نمایش داده می‌شود."
+
+#: views/admin/settings/tab-general.php:124
+#: views/admin/settings/tab-general.php:127
+msgid "Suffix text for replies"
+msgstr "متن پسوند برای پاسخ‌ها"
+
+#: views/admin/settings/tab-general.php:125
+msgid "Show this text as a suffix of operator replies."
+msgstr "این متن به عنوان متن پسوند در پاسخ تیکت‌ها نمایش داده می‌شود."
+
+#: views/admin/settings/tab-notifications.php:4
+msgid "Admin emails"
+msgstr "ایمیل‌های مدیر"
+
+#: views/admin/settings/tab-notifications.php:5
+msgid "Email address that receive notification emails"
+msgstr "آدرس ایمیلی که دریافت کننده‌ی ایمیل‌های اطلاع‌رسانی است"
+
+#: views/admin/settings/tab-notifications.php:7
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: views/admin/settings/tab-notifications.php:12
+#: views/admin/settings/tab-notifications.php:83
+msgid "Notify after submit new ticket"
+msgstr "اطلاعیه بعد از ثبت تیکت جدید"
+
+#: views/admin/settings/tab-notifications.php:14
+#: views/admin/settings/tab-notifications.php:49
+msgid "Send email to admin"
+msgstr "ارسال ایمیل به مدیر"
+
+#: views/admin/settings/tab-notifications.php:17
+#: views/admin/settings/tab-notifications.php:52
+#: views/admin/settings/tab-notifications.php:88
+#: views/admin/settings/tab-notifications.php:123
+#: views/admin/settings/tab-sms-notifications.php:78
+#: views/admin/settings/tab-sms-notifications.php:134
+#: views/admin/settings/tab-sms-notifications.php:192
+#: views/admin/settings/tab-sms-notifications.php:249
+#: views/admin/settings/tab-woocommerce.php:18
+#: views/admin/settings/tab-woocommerce.php:33
+#: views/admin/settings/tab-woocommerce.php:48
+#: views/admin/settings/tab-woocommerce.php:63
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: views/admin/settings/tab-notifications.php:21
+#: views/admin/settings/tab-notifications.php:56
+#: views/admin/settings/tab-notifications.php:92
+#: views/admin/settings/tab-notifications.php:127
+msgid "Subject of email"
+msgstr "موضوع ایمیل"
+
+#: views/admin/settings/tab-notifications.php:25
+#: views/admin/settings/tab-notifications.php:60
+#: views/admin/settings/tab-notifications.php:96
+#: views/admin/settings/tab-notifications.php:131
+msgid "Content of email"
+msgstr "محتوای ایمیل"
+
+#: views/admin/settings/tab-notifications.php:37
+#: views/admin/settings/tab-notifications.php:72
+#: views/admin/settings/tab-notifications.php:108
+#: views/admin/settings/tab-notifications.php:143
+msgid "You can use this"
+msgstr "شما می توانید از این موارد استفاده کنید"
+
+#: views/admin/settings/tab-notifications.php:40
+#: views/admin/settings/tab-notifications.php:75
+#: views/admin/settings/tab-notifications.php:111
+#: views/admin/settings/tab-notifications.php:146
+msgid "Display name"
+msgstr "نام نمایشی"
+
+#: views/admin/settings/tab-notifications.php:41
+#: views/admin/settings/tab-notifications.php:76
+#: views/admin/settings/tab-notifications.php:112
+#: views/admin/settings/tab-notifications.php:147
+msgid "Ticket ID"
+msgstr "شماره تیکت"
+
+#: views/admin/settings/tab-notifications.php:42
+#: views/admin/settings/tab-notifications.php:77
+#: views/admin/settings/tab-notifications.php:113
+#: views/admin/settings/tab-notifications.php:148
+#: views/admin/settings/tab-sms-notifications.php:121
+#: views/admin/settings/tab-sms-notifications.php:178
+#: views/admin/settings/tab-sms-notifications.php:235
+#: views/admin/settings/tab-sms-notifications.php:291
+msgid "Date"
+msgstr "تاریخ"
+
+#: views/admin/settings/tab-notifications.php:47
+#: views/admin/settings/tab-notifications.php:118
+msgid "Notify after submit reply"
+msgstr "اطلاع‌رسانی بعد از ثبت پاسخ تیکت"
+
+#: views/admin/settings/tab-notifications.php:82
+msgid "User emails"
+msgstr "ایمیل‌های کاربر"
+
+#: views/admin/settings/tab-notifications.php:85
+#: views/admin/settings/tab-notifications.php:120
+msgid "Send email to user"
+msgstr "ارسال ایمیل به کاربر"
+
+#: views/admin/settings/tab-sms-notifications.php:7
+msgid "Phone settings"
+msgstr "تنظیمات شماره تلفن"
+
+#: views/admin/settings/tab-sms-notifications.php:8
+msgid ""
+"Choose driver and configuration for getting users and operators phone number"
+msgstr "تنظیمات درایور دریافت کننده شماره تلفن اپراتور‌ها و کاربران را اعمال کنید"
+
+#: views/admin/settings/tab-sms-notifications.php:10
+msgid "Users phone driver"
+msgstr "درایور شماره تلفن کاربران"
+
+#: views/admin/settings/tab-sms-notifications.php:17
+msgid "Select driver"
+msgstr "انتخاب درایور"
+
+#: views/admin/settings/tab-sms-notifications.php:22
+msgid "Don't found any driver"
+msgstr "هیچ درایوری پیدا نشد"
+
+#: views/admin/settings/tab-sms-notifications.php:27
+msgid "Which operator must get admin notifications?"
+msgstr "کدام اپراتور باید نوتیفیکیشن‌های مدیریتی را دریافت کند؟"
+
+#: views/admin/settings/tab-sms-notifications.php:29
+#: views/admin/settings/tab-sms-notifications.php:36
+#: views/admin/settings/tab-tickets.php:37 views/admin/settings/tab-tickets.php:45
+msgid "Choose Operator"
+msgstr "انتخاب اپراتور"
+
+#: views/admin/settings/tab-sms-notifications.php:41
+#: views/admin/settings/tab-tickets.php:50
+msgid "Didn't find any operator"
+msgstr "هیچ اپراتوری پیدا نشد"
+
+#: views/admin/settings/tab-sms-notifications.php:47
+msgid "Sms providers settings"
+msgstr "تنظیمات ارائه دهنده ی SMS"
+
+#: views/admin/settings/tab-sms-notifications.php:48
+msgid "Choose you sms provider from list"
+msgstr "خدمات دهنده‌ی مد نظر خود را انتخاب کنید"
+
+#: views/admin/settings/tab-sms-notifications.php:50
+msgid "Select Provider"
+msgstr "انتخاب خدمات دهنده"
+
+#: views/admin/settings/tab-sms-notifications.php:57
+msgid "Select SMS Provider"
+msgstr "ارائه دهنده ی SMS را انتخاب کنید"
+
+#: views/admin/settings/tab-sms-notifications.php:62
+msgid "Don't found any SMS provider!"
+msgstr "هیچ ارائه دهنده ی خدمات پیامکی یافت نشد!"
+
+#: views/admin/settings/tab-sms-notifications.php:72
+msgid "New ticket Operator notification"
+msgstr "اطلاع رسانی تیکت جدید به اپراتور"
+
+#: views/admin/settings/tab-sms-notifications.php:73
+msgid "Send SMS to operator after submit new ticket"
+msgstr "ارسال پیامک به اپراتور بعد از ثبت تیکت جدید"
+
+#: views/admin/settings/tab-sms-notifications.php:85
+#: views/admin/settings/tab-sms-notifications.php:141
+#: views/admin/settings/tab-sms-notifications.php:199
+#: views/admin/settings/tab-sms-notifications.php:255
+msgid "Using sms provider Pattern-ID"
+msgstr "استفاده از شناسه الگوی سامانه‌پیامکی"
+
+#: views/admin/settings/tab-sms-notifications.php:89
+#: views/admin/settings/tab-sms-notifications.php:145
+#: views/admin/settings/tab-sms-notifications.php:203
+#: views/admin/settings/tab-sms-notifications.php:259
+msgid "Pattern ID"
+msgstr "شناسه الگو"
+
+#: views/admin/settings/tab-sms-notifications.php:92
+#: views/admin/settings/tab-sms-notifications.php:148
+#: views/admin/settings/tab-sms-notifications.php:206
+#: views/admin/settings/tab-sms-notifications.php:262
+msgid "If Your SMS-Provider support pattern you can enter your Pattern-ID here"
+msgstr ""
+"اگر ارائه‌دهنده‌ی سامانه‌پیامکی شما از قابلیت ارسال براساس الگو پشتیبانی میکند، "
+"میتوانید شناسه الگو را اینجا وارد کنید"
+
+#: views/admin/settings/tab-sms-notifications.php:95
+#: views/admin/settings/tab-sms-notifications.php:209
+msgid "New ticket sms content"
+msgstr "محتوای پیامک تیکت جدید"
+
+#: views/admin/settings/tab-sms-notifications.php:106
+#: views/admin/settings/tab-sms-notifications.php:163
+#: views/admin/settings/tab-sms-notifications.php:220
+#: views/admin/settings/tab-sms-notifications.php:276
+msgid "You can use this in your sms content:"
+msgstr "شما میتوانید از این موارد در محتوای پیامک استفاده کنید:"
+
+#: views/admin/settings/tab-sms-notifications.php:112
+#: views/admin/settings/tab-sms-notifications.php:169
+#: views/admin/settings/tab-sms-notifications.php:226
+#: views/admin/settings/tab-sms-notifications.php:282
+msgid "User Display Name"
+msgstr "نام نمایشی کاربر"
+
+#: views/admin/settings/tab-sms-notifications.php:115
+#: views/admin/settings/tab-sms-notifications.php:172
+#: views/admin/settings/tab-sms-notifications.php:229
+#: views/admin/settings/tab-sms-notifications.php:285
+msgid "Ticket number"
+msgstr "شماره تیکت"
+
+#: views/admin/settings/tab-sms-notifications.php:118
+#: views/admin/settings/tab-sms-notifications.php:175
+#: views/admin/settings/tab-sms-notifications.php:232
+#: views/admin/settings/tab-sms-notifications.php:288
+msgid "Ticket Operator Name"
+msgstr "نام اپراتور"
+
+#: views/admin/settings/tab-sms-notifications.php:124
+#: views/admin/settings/tab-sms-notifications.php:181
+#: views/admin/settings/tab-sms-notifications.php:238
+#: views/admin/settings/tab-sms-notifications.php:294
+msgid "In some case of sms provider system you shoud put Laghv11 in sms content"
+msgstr "در برخی از سامانه‌ها نیاز است که از لغو۱۱ در محتوای پیامک استفاده کنید"
+
+#: views/admin/settings/tab-sms-notifications.php:128
+msgid "New reply Operator notification"
+msgstr "اطلاع‌رسانی پاسخ جدید برای اپراتور"
+
+#: views/admin/settings/tab-sms-notifications.php:129
+msgid "Send SMS to operator after submit ticket reply"
+msgstr "ارسال پیامک به اپراتور بعد از ثبت پاسخ تیکت"
+
+#: views/admin/settings/tab-sms-notifications.php:152
+#: views/admin/settings/tab-sms-notifications.php:265
+msgid "Submit reply sms content"
+msgstr "محتوای پیامک ثبت پاسخ تیکت"
+
+#: views/admin/settings/tab-sms-notifications.php:186
+msgid "New ticket User notification"
+msgstr "اطلاع‌رسانی تیکت جدید برای کاربر"
+
+#: views/admin/settings/tab-sms-notifications.php:187
+#: views/admin/settings/tab-sms-notifications.php:244
+msgid "Send SMS to user after submit new ticket"
+msgstr "ارسال پیامک به کاربر بعد از ثبت تیکت جدید"
+
+#: views/admin/settings/tab-sms-notifications.php:243
+msgid "New reply User notification"
+msgstr "اطلاع‌رسانی پاسخ جدید برای کاربر"
+
+#: views/admin/settings/tab-steps.php:4
+msgid "Steps title"
+msgstr "عنوان مراحل"
+
+#: views/admin/settings/tab-steps.php:5
+msgid "Enter title for each steps in new ticket process"
+msgstr "عنوان هر مرحله از ثبت تیکت جدید را وارد کنید"
+
+#: views/admin/settings/tab-steps.php:7
+msgid "Choose order step title"
+msgstr "عنوان مرحله انتخاب سفارش"
+
+#: views/admin/settings/tab-steps.php:11
+msgid "FAQ step title"
+msgstr "عنوان مرحله سؤالات متداول"
+
+#: views/admin/settings/tab-steps.php:15
+msgid "Search step title"
+msgstr "عنوان مرحله جستجو"
+
+#: views/admin/settings/tab-steps.php:19
+msgid "Smart robot next step button"
+msgstr "دکمه مرحله بعد ربات هوشمند"
+
+#: views/admin/settings/tab-steps.php:23
+msgid "Final step title"
+msgstr "عنوان مرحله ثبت تیکت"
+
+#: views/admin/settings/tab-tickets.php:12
+msgid "Ticket status"
+msgstr "وضعیت تیکت"
+
+#: views/admin/settings/tab-tickets.php:13
+msgid "You can add extra statuses for your ticket system"
+msgstr "میتوانید وضعیت‌های اختصاصی برای سیستم تیکت اضافه کنید"
+
+#: views/admin/settings/tab-tickets.php:33
+msgid "Auto Tickets"
+msgstr "تیکت خودکار"
+
+#: views/admin/settings/tab-tickets.php:34
+msgid "Send ticket to user after change ticket status"
+msgstr "ارسال تیکت به کاربر بعد از تغییر وضعیت"
+
+#: views/admin/settings/tab-tools.php:9
+msgid "Poshtvan page"
+msgstr "برگه‌ی پشتوان"
+
+#: views/admin/settings/tab-tools.php:10
+msgid "Create page that contains Poshtvan shortcode"
+msgstr "ساخت برگه‌ای که شورتکد پشتوان داشته باشد"
+
+#: views/admin/settings/tab-tools.php:12
+msgid "Create Poshtvan page"
+msgstr "ساخت برگه‌ی پشتوان"
+
+#: views/admin/settings/tab-tools.php:14 views/admin/settings/tab-tools.php:28
+msgid "Create"
+msgstr "بساز"
+
+#: views/admin/settings/tab-tools.php:17
+msgid "There is a page with Poshtvan slug on your site."
+msgstr "یک برگه با نامک پشتوان در سایت شما وجود دارد."
+
+#: views/admin/settings/tab-tools.php:18
+msgid "If you want to create new page, first delete last page change it's slug"
+msgstr ""
+"اگر میخواهید برگه‌ی جدیدی بسازید، ابتدا برگه‌ی قبلی را حذف کنید یا نامک آن را "
+"تغییر دهید"
+
+#: views/admin/settings/tab-tools.php:25
+msgid "Create database tables"
+msgstr "ساخت جدول‌های دیتابیس"
+
+#: views/admin/settings/tab-tools.php:27
+msgid "Create Poshtvan default tables in database"
+msgstr "ساخت جدول‌های پیشفرض پشتوان در دیتابیس"
+
+#: views/admin/settings/tab-tools.php:30
+msgid "Just use this when some tables were dropped from database."
+msgstr ""
+"فقط زمانی که برخی از جدول‌های پشتوان از دیتابیس حذف شده‌اند از این گزینه استفاده "
+"کنید."
+
+#: views/admin/settings/tab-tools.php:34
+msgid "Delete Attachment Files"
+msgstr "حذف فایل‌های پیوست"
+
+#: views/admin/settings/tab-tools.php:36
+msgid "Delete all attachment files from poshtvan"
+msgstr "حذف همه‌ی فایل‌های پیوست شده از پشتوان"
+
+#: views/admin/settings/tab-tools.php:39 views/admin/settings/tab-tools.php:52
+msgid "Delete All"
+msgstr "حذف همه"
+
+#: views/admin/settings/tab-tools.php:40
+msgid ""
+"Are you sure you want to delete all attachment files from poshtvan? This is "
+"irreversible action!"
+msgstr ""
+"آیا از حذف کردن فایل‌های پیوست اطمینان دارید؟ این عملیات بازگشت ناپذیر است!"
+
+#: views/admin/settings/tab-tools.php:43
+msgid "This option delete all attachment files from poshtvan"
+msgstr "این گزینه همه‌ی فایل‌های پیوست را از پشتوان حذف میکند"
+
+#: views/admin/settings/tab-tools.php:47
+msgid "Delete all tickets"
+msgstr "حذف همه‌ی تیکت‌ها"
+
+#: views/admin/settings/tab-tools.php:49
+msgid "Delete all tickets from poshtvan"
+msgstr "حذف همه‌ی تیکت‌ها از روی پشتوان"
+
+#: views/admin/settings/tab-tools.php:53
+msgid ""
+"Are you sure you want to delete all tickets from poshtvan? This is irreversible "
+"action!"
+msgstr ""
+"آیا از حذف کردن تیکت‌ها از روی پشتوان اطمینان دارید؟ این عملیات بازگشت ناپذیر "
+"است!"
+
+#: views/admin/settings/tab-tools.php:56
+msgid "This option delete all tickets and tickets meta data from poshtvan"
+msgstr "این گزینه همه‌ی تیکت‌ها از روی پشتوان حذف میکند"
+
+#: views/admin/settings/tab-woocommerce.php:6
+msgid ""
+"If you do not have WooCommerce installed, the settings on this page will not "
+"work properly."
+msgstr ""
+"در صورتی که ووکامرس را نصب نداشته باشید، تنظیمات این صفحه به درستی روی سایت شما "
+"اعمال نخواهند شد."
+
+#: views/admin/settings/tab-woocommerce.php:12
+msgid "Woocommerce Orders"
+msgstr "سفارش‌های ووکامرس"
+
+#: views/admin/settings/tab-woocommerce.php:14
+msgid "Show orders list in user ticket"
+msgstr "نمایش لیست سفارش‌ها در تیکت‌ها"
+
+#: views/admin/settings/tab-woocommerce.php:23
+#: views/admin/settings/tab-woocommerce.php:38
+#: views/admin/settings/tab-woocommerce.php:53
+#: views/admin/settings/tab-woocommerce.php:67
+#, php-format
+msgid "At first, you need to install %s plugin"
+msgstr "ابتدا باید پلاگین %s را نصب کنید"
+
+#: views/admin/settings/tab-woocommerce.php:29
+msgid "Send ticket just by choose order item"
+msgstr "ارسال تیکت فقط بر اساس آیتم‌های سفارش"
+
+#: views/admin/settings/tab-woocommerce.php:44
+msgid "Activate steps in send new ticket"
+msgstr "فعالسازی حالت مرحله‌ای در ارسال تیکت جدید"
+
+#: views/admin/settings/tab-woocommerce.php:59
+msgid "Integrate with Woocommerce Subscription"
+msgstr "همگام‌سازی با افزونه‌ی اشتراک ووکامرس"
+
+#: views/admin/settings/tab-woocommerce.php:66
+msgid "WC Subscription"
+msgstr "اشتراک ووکامرس"
+
+#: views/admin/settings/tab-woocommerce.php:75
+msgid "Orders texts"
+msgstr "متن‌های سفارش‌ها"
+
+#: views/admin/settings/tab-woocommerce.php:77
+msgid "Invalid order number text"
+msgstr "متن شماره سفارش معتبر نیست"
+
+#: views/admin/settings/tab-woocommerce.php:81
+msgid "Product stopped support text"
+msgstr "متن توقف فروش محصول"
+
+#: views/admin/settings/tab-woocommerce.php:85
+msgid "Product stopped left days support text"
+msgstr "متن توقف فروش محصول پس از زمان مشخص"
+
+#: views/admin/settings/tab-woocommerce.php:89
+msgid "Product expired subscription text"
+msgstr "متن پایان زمان پشتیبانی به علت اتمام اشتراک محصول"
+
+#: views/admin/ticket/ticket-content.php:17
+msgid "Copy ticket URL"
+msgstr "کپی آدرس تیکت"
+
+#: views/admin/ticket/ticket-content.php:19 views/user/ticket/replies.php:6
+msgid "Problem Solved"
+msgstr "مشکل حل شد"
+
+#: views/admin/ticket/ticket-content.php:28
+msgid "This ticket submitted for:"
+msgstr "این تیکت ثبت شده است برای:"
+
+#: views/admin/ticket/ticket-content.php:41
+msgid "User Orders"
+msgstr "سفارش‌ها"
+
+#: views/admin/ticket/ticket-content.php:69
+#: views/admin/ticket/ticket-content.php:95 views/user/ticket/replies.php:45
+#: views/user/ticket/reply-item.php:30
+msgid "Attachment File"
+msgstr "فایل پیوست شده"
+
+#: views/admin/ticket/ticket-content.php:83
+msgid "Edit"
+msgstr "ویرایش"
+
+#: views/admin/ticket/ticket-content.php:128 views/user/ticket/replies.php:65
+msgid "Submit Reply"
+msgstr "ارسال پاسخ"
+
+#: views/admin/ticket/tickets.php:7 views/user/ticket/new-steps-mode.php:20
+msgid "Search"
+msgstr "ربات هوشمند"
+
+#: views/admin/ticket/tickets.php:16
+msgid "All"
+msgstr "همه"
+
+#: views/admin/ticket/tickets.php:27
+msgid "Apply"
+msgstr "اعمال تغییرات"
+
+#: views/admin/ticket/tickets.php:32 views/user/ticket/tickets.php:10
+msgid "Load More"
+msgstr "بارگذاری بیشتر"
+
+#: views/user/ticket/ai-chat-widget.php:6
+msgid "You can start chatting with the bot."
+msgstr "می توانید گفتگو با هوش مصنوعی را شروع کنید."
+
+#: views/user/ticket/ai-chat-widget.php:14
+msgid "Your question..."
+msgstr "سوال شما..."
+
+#: views/user/ticket/faq.php:16
+msgid "There is nothing faq items"
+msgstr "هیچ سوال متداولی وجود ندارد"
+
+#: views/user/ticket/faq.php:21 views/user/ticket/new-steps-mode.php:65
+#: views/user/ticket/new-steps-mode.php:96 views/user/ticket/replies.php:4
+#: views/user/ticket/subject_search.php:20
+msgid "Back"
+msgstr "بازگشت"
+
+#: views/user/ticket/new-steps-mode.php:3 views/user/ticket/new.php:3
+msgid "Close"
+msgstr "بستن"
+
+#: views/user/ticket/new-steps-mode.php:3 views/user/ticket/new.php:3
+msgid "Send Support Request"
+msgstr "ارسال درخواست پشتیبانی"
+
+#: views/user/ticket/new-steps-mode.php:12
+msgid "Choose order"
+msgstr "انتخاب سفارش"
+
+#: views/user/ticket/new-steps-mode.php:24
+msgid "Submit new ticket"
+msgstr "درخواست پشتیبانی"
+
+#: views/user/ticket/new-steps-mode.php:47
+#, php-format
+msgid "Powered by %s"
+msgstr "قدرت گرفته از %s"
+
+#: views/user/ticket/new-steps-mode.php:47
+msgid "Hooshina"
+msgstr "هوشینا"
+
+#: views/user/ticket/new-steps-mode.php:55 views/user/ticket/new-steps-mode.php:79
+#: views/user/ticket/new.php:15
+msgid "Subject"
+msgstr "موضوع"
+
+#: views/user/ticket/new-steps-mode.php:56
+msgid "Type the error or problem you are having"
+msgstr "خطا یا مشکلی که دارید را تایپ کنید"
+
+#: views/user/ticket/new-steps-mode.php:84 views/user/ticket/new.php:19
+msgid "Description"
+msgstr "شرح"
+
+#: views/user/ticket/new-steps-mode.php:89 views/user/ticket/new.php:24
+#: views/user/ticket/replies.php:61
+msgid "Choose or drag your file here"
+msgstr "آیتم مورد نظر را انتخاب یا آن را اینجا رها کنید"
+
+#: views/user/ticket/new-steps-mode.php:93 views/user/ticket/new.php:28
+msgid "Submit Ticket"
+msgstr "ثبت تیکت"
+
+#: views/user/ticket/new-steps-mode.php:95
+msgctxt "new-ticket-steps"
+msgid "Next"
+msgstr "مرحله بعد"
+
+#: views/user/ticket/new.php:16
+msgid "Ticket Subject"
+msgstr "عنوان تیکت"
+
+#: views/user/ticket/replies.php:70
+msgid "Select the order related to this ticket again"
+msgstr "شماره سفارش مربوط به این تیکت را مجددا انتخاب کنید"
+
+#: views/user/ticket/replies.php:72
+msgid "Submit ticket order number"
+msgstr "ثبت شماره سفارش تیکت"
+
+#: views/user/ticket/subject_search.php:2
+msgid "Search result"
+msgstr "نتایج جستجو"
+
+#: views/user/ticket/subject_search.php:16
+msgid ""
+"The bot did not find anything. You can change the topic or register a new ticket"
+msgstr "ربات چیزی پیدا نکرد؛ میتونین موضوع رو تغییر بدین یا تیکت جدید ثبت کنین"
+
+#. Description of the plugin/theme
+msgid "Ticket management plugin"
+msgstr "پیاده سازی سیستم پشتیبانی بر اساس تیکت"
+
+#. Author of the plugin/theme
+msgid "MihanWp"
+msgstr "میهن وردپرس"
+
+#. Author URI of the plugin/theme
+msgid "https://mihanwp.com/"
+msgstr "https://mihanwp.com"
+
+#~ msgid ""
+#~ "You can enter template id if this feature is enable in your sms provider "
+#~ "account."
+#~ msgstr ""
+#~ "اگر قابلیت ارسال بر اساس قالب از پیش تعیین شده از سمت ارائه دهنده ی خدمات "
+#~ "پیامکی برای اکانت شما فعال است، می‌توانید شناسه قالب را وارد کنید."
+
+#~ msgid "Template ID"
+#~ msgstr "شناسه قالب"
+
+#~ msgid "Administrator"
+#~ msgstr "مدیرکل"
+
+#~ msgid "Ticket Operator"
+#~ msgstr "اپراتور تیکت"
+
+#~ msgid "Operators phone driver"
+#~ msgstr "درایور شماره تلفن اپراتور‌ها"
+
+#~ msgid "Admin notifications"
+#~ msgstr "اطلاع‌رسانی‌های مدیریت"
+
+#~ msgid "Send sms to admin after some ticket events triggered"
+#~ msgstr "ارسال پیامک به مدیر/اپراتور بعد از رخ دادن بعضی از رویدادهای تیکت"
+
+#~ msgid "Send sms to user after some ticket events triggered"
+#~ msgstr "ارسال پیامک به کاربر بعد از رخ دادن برخی از رویدادهای تیکت"
+
+#~ msgid "SMS Content"
+#~ msgstr "محتوای پیامک"
+
+#~ msgid "Mihan Ticket"
+#~ msgstr "میهن تیکت"
+
+#~ msgid "Form steps"
+#~ msgstr "فرم مراحل"
+
+#~ msgid ""
+#~ "%s plugin is not active! For using all features enter license key from %s "
+#~ "Thanks!"
+#~ msgstr ""
+#~ "افزونه %s فعال نیست! برای استفاده از تمامی امکانات از بخش %s کد فعالسازی را "
+#~ "وارد کنید."
+
+#~ msgid "I want to submit ticket"
+#~ msgstr "میخواهم تیکت جدید ثبت کنم"
+
+#~ msgid "Smart robot"
+#~ msgstr "ربات هوشمند پاسخگویی به سوالات"
+
+#~ msgid "Write your question or problem"
+#~ msgstr "مشکل یا سوال خود را بنویسید"
+
+#~ msgid "Investigation"
+#~ msgstr "در‌دست‌بررسی"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Field and Value is required"
+#~ msgstr "فیلد و مقدار آن مورد نیاز است"
+
+#~ msgid "Login Url"
+#~ msgstr "لینک ورود"
+
+#~ msgid ""
+#~ "Please continue your ticket until you reach the final answer and avoid "
+#~ "sending a new ticket in relation to the previous issue."
+#~ msgstr ""
+#~ "لطفا برای دریافت سریع‌تر پاسخ، تیکت خود را تا رسیدن به پاسخ ادامه دهید و برای "
+#~ "یک مشکل چند تیکت ارسال نفرمایید."
+
+#~ msgid "Supporter Operator"
+#~ msgstr "اپراتور پشتیبانی"
+
+#~ msgid "Hello"
+#~ msgstr "سلام"
+
+#~ msgid "With Respect."
+#~ msgstr "با تقدیم احترام"
+
+#~ msgid "Invlaid File Size"
+#~ msgstr "سایز فایل نامعتبر است"
+
+#, fuzzy
+#~| msgid "%1$s: Invalid file type"
+#~ msgid "Invalida File Type"
+#~ msgstr "%1$s: نوع فایل نامعتبر است"
+
+#~ msgid "New Ticket"
+#~ msgstr "تیکت جدید"
+
+#~ msgid "Site Data"
+#~ msgstr "اطلاعات سایت"
+
+#~ msgid "Solve"
+#~ msgstr "حل شد"
+
+#~ msgid "Activity"
+#~ msgstr "فعالیت‌ها"
+
+#~ msgid "Address 2"
+#~ msgstr "آدرس شماره دو"
+
+#~ msgid "Login & Register"
+#~ msgstr "ورود و عضویت"
+
+#~ msgid "User Panel"
+#~ msgstr "پنل کاربری"
+
+#~ msgid "Register Form"
+#~ msgstr "فرم ثبت نام"
+
+#~ msgid "Login with SMS"
+#~ msgstr "ورود با SMS"
+
+#~ msgid "Emails"
+#~ msgstr "ایمیل‌های ارسالی"
+
+#~ msgid "Create new field"
+#~ msgstr "ایجاد فیلد جدید"
+
+#~ msgid "Panel Menus"
+#~ msgstr "منوهای پنل کاربری"
+
+#~ msgid "Successfully added! Watch user panel"
+#~ msgstr "با موفقیت اضافه شد! میتونید پنل کاربری رو ببینید"
+
+#~ msgid "yes"
+#~ msgstr "بله"
+
+#~ msgid "Link / Shortcode"
+#~ msgstr "لینک / کد کوتاه"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#~ msgid "FontAwesome"
+#~ msgstr "FontAwesome"
+
+#~ msgid "Create new item"
+#~ msgstr "ایجاد مورد جدید"
+
+#~ msgid "Menu Title"
+#~ msgstr "عنوان منو"
+
+#~ msgid "Choose"
+#~ msgstr "انتخاب"
+
+#~ msgid "Link to other page"
+#~ msgstr "پیوند به صفحه دیگر"
+
+#~ msgid "Shortcode"
+#~ msgstr "کد کوتاه"
+
+#~ msgid "The operation failed due to security issues."
+#~ msgstr "عملیات به دلیل مشکلات امنیتی متوقف شد."
+
+#~ msgid "Nothing updated."
+#~ msgstr "چیزی آپدیت نشد."
+
+#~ msgid "Could not be deleted."
+#~ msgstr "حذف نشد."
+
+#~ msgid "Woocommerce Download Products"
+#~ msgstr "دانلود محصولات"
+
+#~ msgid "My Purchases"
+#~ msgstr "فایل های خریداری شده"
+
+#~ msgid ""
+#~ "You need to install easy digital downloads plugin for using this section!"
+#~ msgstr ""
+#~ "برای استفاده از این بخش ابتدا باید افزونه ی \"easy digital downloads\" را "
+#~ "نصب کنید!"
+
+#~ msgid "Registration complete. Your account has been activated automatically."
+#~ msgstr "نام نویسی انجام شد. اکانت شما به صورت خودکار فعال شده است."
+
+#~ msgid "Registration complete. Please wait for admin approval."
+#~ msgstr "نام نویسی انجام شد. لطفا منتظر تایید مدیریت سایت باشید."
+
+#~ msgid "Login Page"
+#~ msgstr "برگه ورود"
+
+#~ msgid "Your account is disable! Please wait for admin approval."
+#~ msgstr "اکانت شما غیرفعال است. لطفا منتظر تایید مدیریت سایت باشید."
+
+#~ msgid "Your account is disable!"
+#~ msgstr "اکانت شما غیرفعال است!"
+
+#~ msgid "Request is invalid!"
+#~ msgstr "درخواست شما نامعتبر است!"
+
+#~ msgid "Account activation"
+#~ msgstr "فعالسازی حساب کاربری"
+
+#~ msgid "Click on below link to activate account"
+#~ msgstr "برای فعاسازی اکانت روی لینک زیر کلیک کنید"
+
+#~ msgid "Registration complete."
+#~ msgstr "ثبت نام تکمیل شد."
+
+#~ msgid "Thanks!"
+#~ msgstr "ممنون!"
+
+#~ msgid "[%s] Login Details"
+#~ msgstr "[%s] اطلاعات ورود"
+
+#~ msgid "[%s] Change Account Status"
+#~ msgstr "[%s] تغییر وضعیت اکانت"
+
+#~ msgid "Unknown"
+#~ msgstr "ناشناخته"
+
+#~ msgid "Inactive"
+#~ msgstr "غیرفعال"
+
+#~ msgid "Optional"
+#~ msgstr "اختیاری"
+
+#~ msgid "Save"
+#~ msgstr "ذخیره"
+
+#~ msgid "Passwords don't match!"
+#~ msgstr "رمزهای عبور یکسان نیست!"
+
+#~ msgid "%1$s must not be empty."
+#~ msgstr "%1$s نباید خالی باشد."
+
+#~ msgid "You are our user"
+#~ msgstr "سابقه عضویت شما"
+
+#~ msgid "%d Day"
+#~ msgstr "%d روز"
+
+#~ msgid "Your Comments"
+#~ msgstr "نظرات شما"
+
+#~ msgid "Purchased files"
+#~ msgstr "فایل های خریداری شده"
+
+#~ msgid "Your purchase count"
+#~ msgstr "تعداد خرید شما"
+
+#~ msgid "Pro Version"
+#~ msgstr "نسخه‌ی حرفه‌ای"
+
+#~ msgid "Auto confirm phone number after user register"
+#~ msgstr "فعالسازی شماره تلفن بعد از ثبت نام به صورت اتوماتیک"
+
+#~ msgid "User can change phone number"
+#~ msgstr "کاربر میتواند شماره تلفن را تغییر دهد"
+
+#~ msgid ""
+#~ "Max item count is 4 in lite version. Upgrade to %s for disable this "
+#~ "restriction."
+#~ msgstr ""
+#~ "حداکثر تعداد مجاز در نسخه‌ی لایت ۴ است. برای از بین بردن این محدودیت پلاگین "
+#~ "را به %s ارتقا دهید."
+
+#~ msgid "Automatic activation"
+#~ msgstr "فعالسازی اتوماتیک"
+
+#~ msgid "Send Activation Link"
+#~ msgstr "ارسال لینک فعالسازی"
+
+#~ msgid "Manual Activation"
+#~ msgstr "فعالسازی دستی"
+
+#~ msgid "Wordpress Password Mode"
+#~ msgstr "پسورد وردپرس"
+
+#~ msgid "Both"
+#~ msgstr "هردو"
+
+#~ msgid "You need to install woocommerce for use this section!"
+#~ msgstr "برای استفاده از این بخش ابتدا باید Woocommerce را نصب کنید!"
+
+#~ msgid "Go shop"
+#~ msgstr "برو به فروشگاه"
+
+#~ msgid "No downloads available yet."
+#~ msgstr "هیچ دانلودی در دسترس نیست."
+
+#~ msgid "Open Menu"
+#~ msgstr "باز کردن منو"
+
+#~ msgid "Please login to your account"
+#~ msgstr "لطفا وارد حساب کاربری خود شوید"
+
+#~ msgid "Password must not empty"
+#~ msgstr "کلمه عبور نباید خالی باشد"
+
+#~ msgid " Should not be empty!"
+#~ msgstr " نباید خالی باشد!"
+
+#~ msgid "Text input"
+#~ msgstr "متن ساده"
+
+#~ msgid "Textarea"
+#~ msgstr "باکس متنی"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Numeral"
+#~ msgstr "عددی"
+
+#~ msgid "Checkbox"
+#~ msgstr "چک باکس"
+
+#~ msgid "Selectbox"
+#~ msgstr "باکس انتخاب"
+
+#~ msgid "Radio Button"
+#~ msgstr "دکمه رادیویی"
+
+#~ msgid "Show User Profile"
+#~ msgstr "نمایش پروفایل کاربری"
+
+#~ msgid "User Dashboard"
+#~ msgstr "داشبورد کاربری"
+
+#~ msgid "Edit Profile"
+#~ msgstr "ویرایش پروفایل"
+
+#~ msgid "Logout"
+#~ msgstr "خروج"
+
+#~ msgid "Register"
+#~ msgstr "ثبت نام"
+
+#~ msgid "Back to Home Page"
+#~ msgstr "بازگشت به صفحه اصلی"
+
+#~ msgid "Howdy, %1$s!"
+#~ msgstr "سلام  %1$s!"
+
+#~ msgid "%1$s off code for your next purchase"
+#~ msgstr "کد تخفیف %1$s برای خرید بعدی شما"
+
+#~ msgid "Off code: %1$s"
+#~ msgstr "کد تخفیف: %1$s"
+
+#~ msgid "Edit User Profile"
+#~ msgstr "ویرایش پروفایل کاربری"
+
+#~ msgid "New password"
+#~ msgstr "رمز عبور جدید"
+
+#~ msgid "Password repeat"
+#~ msgstr "تکرار رمز عبور"
+
+#~ msgid "Bio"
+#~ msgstr "بیوگرافی"
+
+#~ msgid "Username not recevied!"
+#~ msgstr "نام کاربری دریافت نشد!"
+
+#~ msgid "User not exists!"
+#~ msgstr "کاربر وجود ندارد!"
+
+#~ msgid "Dynamic code was generated for you!"
+#~ msgstr "کد پویا برای شما ایجاد شد!"
+
+#~ msgid "No any valid phone number for this username!"
+#~ msgstr "هیچ شماره ی مجازی برای این کاربر وجود ندارد!"
+
+#~ msgid "Dynamic code did not create for your account!"
+#~ msgstr "کد پویا برای شما ایجاد نشد!"
+
+#~ msgid "Dynamic code send for you!"
+#~ msgstr "کد پویا برای شما ارسال شد!"
+
+#~ msgid "Please use valid phone number."
+#~ msgstr "لطفا از یک شماره ی معتبر استفاده کنید."
+
+#~ msgid "Sory, has problem in send sms"
+#~ msgstr "متأسفیم، مشکلی در ارسال sms پیش آمد"
+
+#~ msgid "Please enter dynamic code"
+#~ msgstr "لطفا کد پویا را وراد کنید"
+
+#~ msgid "Dynamic code was wrong"
+#~ msgstr "کد پویا اشتباه است"
+
+#~ msgid "Sory, has problem in validate your phone."
+#~ msgstr "متأسفیم، مشکلی در تأیید شماره تلفن شما پیش آمد."
+
+#~ msgid "Role must not be empty"
+#~ msgstr "نقش کاربری نباید خالی باشد"
+
+#~ msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+#~ msgstr "حجم فایل بارگذاری شده بیش از حد مشخص شده در تنظیمات سمت سرور است"
+
+#~ msgid ""
+#~ "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+#~ "the HTML form"
+#~ msgstr "حجم فایل بارگذاری شده بیش از حد مشخص شده در فرم است"
+
+#~ msgid "The uploaded file was only partially uploaded"
+#~ msgstr "فایل بارگذاری شده فقط تا حدی آپلود شد"
+
+#~ msgid "No file was uploaded"
+#~ msgstr "فایلی آپلود نشده"
+
+#~ msgid "Missing a temporary folder"
+#~ msgstr "فولدر موقت پیدا نشد"
+
+#~ msgid "Failed to write file to disk."
+#~ msgstr "نمیتوان چیزی روی حافظه نوشت."
+
+#~ msgid "A PHP extension stopped the file upload."
+#~ msgstr "روند آپلود فایل از سمت اکستنشن php متوقف شد."
+
+#~ msgid "%1$s: Has error in upload file."
+#~ msgstr "%1$s: حطایی در آپلود فایل وجود دارد."
+
+#~ msgid "Upload"
+#~ msgstr "آپلود تصویر"
+
+#~ msgid "Maximum file size"
+#~ msgstr "حداکثر حجم فایل"
+
+#~ msgid "MB"
+#~ msgstr "مگابایت"
+
+#~ msgid "Field id"
+#~ msgstr "شناسه فیلد"
+
+#~ msgid "Where show field"
+#~ msgstr "کجا نمایش داده شود"
+
+#~ msgid "Profile & Register"
+#~ msgstr "ویرایش پروفایل و ثبت نام"
+
+#~ msgid "Just in profile"
+#~ msgstr "فقط در ویرایش پروفایل"
+
+#~ msgid ""
+#~ "<p>License is not active! Please activate it from <strong>Plugins > Mihan "
+#~ "Panel License.</strong> Thanks!</p>"
+#~ msgstr ""
+#~ "<p>لایسنس افزونه فعال نیست! لطفا از بخش <strong> افزونه ها > لایسنس افزونه "
+#~ "میهن پنل </strong> فعالش کنید. سپاس</p>"
+
+#~ msgid "Light"
+#~ msgstr "روشن"
+
+#~ msgid "Dark"
+#~ msgstr "تیره"
+
+#~ msgid "Modern"
+#~ msgstr "مدرن"
+
+#~ msgid "3D"
+#~ msgstr "سه بعدی"
+
+#~ msgid "IRANSans"
+#~ msgstr "ایران سنس"
+
+#~ msgid "IRANYekan"
+#~ msgstr "ایران یکان"
+
+#~ msgid "Activation Code"
+#~ msgstr "کد فعالسازی"
+
+#~ msgid "API Key"
+#~ msgstr "کلید API"
+
+#~ msgid "It's can be empty"
+#~ msgstr "میتواند خالی باشد"
+
+#~ msgid "Please use latin numbers as the gateway number"
+#~ msgstr "لطفا از اعداد لاتین برای شماره ی درگاه استفاده کنید"
+
+#~ msgid "Not connected to sms provider"
+#~ msgstr "ارتباط با ارائه دهنده ی خدمات برقرار نشد"
+
+#~ msgid "Secret Key"
+#~ msgstr "کلید امنیتی"
+
+#~ msgid ""
+#~ "If Use this feature, sms content field value must be like this (Put each "
+#~ "item in new line):"
+#~ msgstr ""
+#~ "اگر از این قابلیت استفاده میکنید، مقدار فیلد محتوای اس‌ام‌اس ارسالی به کاربر "
+#~ "باید به این صورت باشد ( هر مورد را در خط جدید قرار دهید):"
+
+#~ msgid ""
+#~ "Instead of \"username\" and \"verification_code\" user your own field_name "
+#~ "that defined in your sms provider account."
+#~ msgstr ""
+#~ "به جای \"username\" و \"verification_code\" از اسم فیلدی که در اکانت خود "
+#~ "( در سامانه ی ارائه دهنده ی خدمات پیامکی ) تعریف کرده اید، استفاده کنید."
+
+#~ msgid "Choose gateway number"
+#~ msgstr "شماره درگاه را انتخاب کنید"
+
+#~ msgid "License expired at"
+#~ msgstr "تاریخ انقضای لایسنس: %s"
+
+#~ msgid "Your license is not activated for this domain"
+#~ msgstr "لایسنس شما برای این دامنه فعال نیست"
+
+#~ msgid "License is not for this product: Mihan Panel"
+#~ msgstr "لایسنس برای این محصول نیست: میهن پنل"
+
+#~ msgid "Your license is already used; please purchase another license"
+#~ msgstr "این لایسنس قبلا استفاده شده است؛ لطفا لایسنس جدیدی خریداری کنید"
+
+#~ msgid "An error occurred, try again"
+#~ msgstr "خطایی رخ داد ، دوباره امتحان کنید"
+
+#~ msgid "Your license is active for lifetime"
+#~ msgstr "لایسنس شما برای مادامالعمر فعال است"
+
+#~ msgid "Your license is active until"
+#~ msgstr "لایسنس شما فعال است تا"
+
+#~ msgid "Username, Email or Phone number"
+#~ msgstr "نام کاربری، ایمیل یا شماره تلفن"
+
+#~ msgid "Phone Number"
+#~ msgstr "شماره تلفن"
+
+#~ msgid "This phone number is used by another user"
+#~ msgstr "این شماره تلفن توسط کاربر دیگری در حال استفاده است"
+
+#~ msgid "Unavailable phone number!"
+#~ msgstr "شماره تلفن در دسترس نیست!"
+
+#~ msgid "Incorrecnt login data"
+#~ msgstr "مشخصات ورود اشتباه است"
+
+#~ msgid "This phone is inactive on your account"
+#~ msgstr "این شماره تلفن روی اکانت شما فعال نیست"
+
+#~ msgid "Invalid dynamic code!"
+#~ msgstr "کد پویا معتبر نیست!"
+
+#~ msgid "Dynamic code was wrong!"
+#~ msgstr "کد پویا اشتباه است!"
+
+#~ msgid "Username must not be empty!"
+#~ msgstr "نام کاربری نباید خالی باشد!"
+
+#~ msgid "Choose Image"
+#~ msgstr "انتخاب تصویر"
+
+#~ msgid "Show File"
+#~ msgstr "نمایش فایل"
+
+#~ msgid "Your validation code is: [[code]]"
+#~ msgstr "کد فعالسازی شما: [[code]]"
+
+#~ msgid "Your login code is: [[code]]"
+#~ msgstr "کد ورود شما: [[code]]"
+
+#~ msgid "SMS.ir"
+#~ msgstr "SMS.ir"
+
+#~ msgid "Kavenegar"
+#~ msgstr "کاوه نگار"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+#~ msgstr "نسخه جدیدی از %1$s در دسترس است. %2$sمشاهده جزئیات %3$s نسخه جدید%4$s."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+#~ "or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "نسخه جدیدی از%1$s در دسترس است.%2$s مشاهده نسخه %3$s جزئیات %4$s  يا %5$s  "
+#~ "اکنون بروزرسانی کنید %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "شما دسترسی لازم برای نصب آپدیت های این پلاگین را ندارید"
+
+#~ msgid "Dynamic Password"
+#~ msgstr "کد پویا"
+
+#~ msgid "Enter Dynamic Password"
+#~ msgstr "کد پویا را وارد کنید"
+
+#~ msgid "Get Code"
+#~ msgstr "دریافت کد"
+
+#~ msgid "Use password"
+#~ msgstr "استفاده از رمز"
+
+#~ msgid "Phone Number Validation"
+#~ msgstr "تأییدیه ی شماره موبایل"
+
+#~ msgid "Validate your phone"
+#~ msgstr "تأیید کردن شماره موبایل"
+
+#~ msgid "Dynamic Code"
+#~ msgstr "کد پویا"
+
+#~ msgid "Request Code"
+#~ msgstr "درخواست کد"
+
+#~ msgid "Please upgrade to the latest version of WordPress to activate %s."
+#~ msgstr "لطفا برای فعالسازی وردپرس خود را به روز رسانی کنید %s."
+
+#~ msgid "Rename wp-login.php"
+#~ msgstr "تغییر نام wp-login.php"
+
+#~ msgid ""
+#~ "This option allows you to set a networkwide default, which can be overridden "
+#~ "by individual sites. Simply go to to the site’s permalink settings to change "
+#~ "the url."
+#~ msgstr ""
+#~ "این گزینه به شما اجازه می دهد به طور پیش فرض شبکه گسترده ای را تنظیم کنید، "
+#~ "که توسط سایت های مختلف قابل لغو است. برای تغییر آدرس، به سادگی به تنظیمات "
+#~ "سایت بروید."
+
+#~ msgid "Networkwide default"
+#~ msgstr "پیش فرض شبکه گسترده"
+
+#~ msgid "Change login url. Please set the Settings > Permalink to the post name."
+#~ msgstr ""
+#~ "تغییر url صفحه ی ورود. لطفا از بخش تنظیمات > پیوند های یکتا را روی نام نوشته "
+#~ "قرار دهید."
+
+#~ msgid "Login page address"
+#~ msgstr "آدرس صفحه ی ورود"
+
+#~ msgid "To set a networkwide default, go to %s."
+#~ msgstr "برای تنظیم یک پیش فرض شبکه گسترده ، به %s بروید."
+
+#~ msgid "Network Settings"
+#~ msgstr "تنظیمات شبکه"
+
+#~ msgid "Your login page is now here: %s. Bookmark this page!"
+#~ msgstr ""
+#~ "صفحه ی ورود شما در اینجاست: %s. میتوانید آن را به بوکمارک خود اضافه کنید!"
+
+#~ msgid "This feature is not enabled."
+#~ msgstr "این ویژگی در دسترس نیست."
+
+#~ msgid "User Account Status"
+#~ msgstr "وضعیت اکانت کاربری"
+
+#~ msgid "Account status"
+#~ msgstr "وضعیت اکانت"
+
+#~ msgid "Change account status"
+#~ msgstr "تغییر وضعیت"
+
+#~ msgid "Welcome Email"
+#~ msgstr "ایمیل خوش آمد گویی"
+
+#~ msgid "Text of email that send to new user"
+#~ msgstr "متن ایمیلی که به کاربر جدید ارسال می شود"
+
+#~ msgid "Reset Password Email"
+#~ msgstr "ایمیل بازگردانی رمز عبور"
+
+#~ msgid "Subject and Text of reset password email"
+#~ msgstr "موضوع و متن ایمیل بازیابی رمز عبور"
+
+#~ msgid "Reset password email subject"
+#~ msgstr "موضوع ایمیل بازیابی رمز عبور"
+
+#~ msgid "Activation Link"
+#~ msgstr "لینک فعالسازی"
+
+#~ msgid "Change Accoutn Status Email"
+#~ msgstr "ایمیل تغییر وضعیت اکانت"
+
+#~ msgid "Subject and Text of change account status email"
+#~ msgstr "موضوع و متن ایمیل تغییر وضعیت اکانت کاربری"
+
+#~ msgid "Change account status email subject"
+#~ msgstr "عنوان ایمیل تغییر وضعیت اکانت کاربری"
+
+#~ msgid "Account Status"
+#~ msgstr "وضعیت اکانت"
+
+#~ msgid "Activation process"
+#~ msgstr "روند فعالسازی"
+
+#~ msgid "Login Form Theme"
+#~ msgstr "تم فرم ورود"
+
+#~ msgid "Login and Register form theme"
+#~ msgstr "تم فرم ورود و عضویت"
+
+#~ msgid "Login Button Color"
+#~ msgstr "رنگ دکمه ورود"
+
+#~ msgid "Color of Login and Register button"
+#~ msgstr "پس زمینه دکمه ورود و ثبت‌نام"
+
+#~ msgid "Login and Register form Logo"
+#~ msgstr "لوگوی فرم ورود و عضویت"
+
+#~ msgid "Upload Image"
+#~ msgstr "آپلود تصویر"
+
+#~ msgid "We suggest to use 120 * 120 px for logo size."
+#~ msgstr ""
+#~ "ما پیشنهاد می کنیم از سایز ۱۲۰ * ۱۲۰ (پیکسل) برای اندازه لوگو  استفاده کنید."
+
+#~ msgid "Logo Width (px)"
+#~ msgstr "پهنای لوگو ( به پیکسل )"
+
+#~ msgid "Logo Height (px)"
+#~ msgstr "ارتفاع لوگو ( به پیکسل )"
+
+#~ msgid "Login and Register form background"
+#~ msgstr "پس زمینه فرم ورود و ثبت نام"
+
+#~ msgid "Redirect non Admin user to"
+#~ msgstr "تغییر مسیر کاربر غیر مدیر به"
+
+#~ msgid ""
+#~ "Users who don't have admin or author caps, redirect to this address after "
+#~ "login (with http or https)"
+#~ msgstr ""
+#~ "کاربرانی که دارای دسترسی مدیر یا نویسنده نیستند، پس از ورود ، به این نشانی "
+#~ "هدایت می شوند (با http یا https)"
+
+#~ msgid "Password Type"
+#~ msgstr "نوع پسورد"
+
+#~ msgid ""
+#~ "If your sms service provider not exists in this list, ask theme to provide "
+#~ "you with the relevant plugin."
+#~ msgstr ""
+#~ "اگر ارائه دهنده ی مورد نظر شما در این لیست موجود نیست، از آن ها بخواهید تا "
+#~ "پلاگین مربوط به این بخش را در اختیار شما قرار دهند."
+
+#~ msgid "According to this documents"
+#~ msgstr "بر اساس این مستندات"
+
+#~ msgid "Dynamic login code sms content"
+#~ msgstr "محتوای SMS کد پویا"
+
+#~ msgid "Notification 1"
+#~ msgstr "اطلاعیه ی شماره 1"
+
+#~ msgid "Create a notification to show to your users in their dashboard."
+#~ msgstr ""
+#~ "یک اطلاعیه بنویسید تا در پنل کاربری برای همه ی کاربران سایت به نمایش درآید."
+
+#~ msgid "Notification 2"
+#~ msgstr "اطلاعیه ی شماره 2"
+
+#~ msgid "Notification 3"
+#~ msgstr "اطلاعیه ی شماره 3"
+
+#~ msgid "Notification 4"
+#~ msgstr "اطلاعیه شماره 4"
+
+#~ msgid "Notification 5"
+#~ msgstr "اطلاعیه شماره 5"
+
+#~ msgid "Notification 6"
+#~ msgstr "اطلاعیه شماره 6"
+
+#~ msgid "Notification 7"
+#~ msgstr "اطلاعیه شماره 7"
+
+#~ msgid "Notification 8"
+#~ msgstr "اطلاعیه شماره 8"
+
+#~ msgid "Hide topbar"
+#~ msgstr "مخفی کردن نوار بالای سایت"
+
+#~ msgid "Activate this if you want to hide wp topbar from your site for users"
+#~ msgstr ""
+#~ "اگر میخواهید نوار سیاه وردپرس از بالای سایت برای کاربران معمولی حذف شود این "
+#~ "گزینه را فعال کنید"
+
+#~ msgid "Use mihan avatar"
+#~ msgstr "استفاده از میهن آواتار"
+
+#~ msgid "User can choose avatar image in panel"
+#~ msgstr "کاربر میتواند آواتار خود را در پنل کاربری تغییر دهد"
+
+#~ msgid "User panel page"
+#~ msgstr "صفحه پنل کاربری"
+
+#~ msgid "No any page exists"
+#~ msgstr "هیچ برگه‌ای وجود ندارد"
+
+#~ msgid "Select user panel page"
+#~ msgstr "برگه‌ی پنل کاربری را انتخاب کنید"
+
+#~ msgid "Panel Theme"
+#~ msgstr "تم پنل کاربری"
+
+#~ msgid "Choose User Panel Theme"
+#~ msgstr "تم پنل کاربری را انتخاب کنید"
+
+#~ msgid "Panel Font Family"
+#~ msgstr "فونت پنل کاربری"
+
+#~ msgid "User Panel Font Family"
+#~ msgstr "فونت استفاده شده برای پنل کاربری و صفحه ورود و عضویت"
+
+#~ msgid "Off Code"
+#~ msgstr "کد تخفیف"
+
+#~ msgid "Off Code that you want to show in user panel"
+#~ msgstr "کد تخفیفی که میخواید در پنل کاربری نمایش داده شود"
+
+#~ msgid "Off Code percentage"
+#~ msgstr "درصد کد تخفیف"
+
+#~ msgid "Off Code percentage will show in user panel. ex => 25%"
+#~ msgstr "درصد کد تخفیف در پنل کاربری نشان داده خواهد شد. مثلا بنویسید: 25 درصدی"
+
+#~ msgid "Color scheme"
+#~ msgstr "رنگ بندی"
+
+#~ msgid "Sidebar background color in panel"
+#~ msgstr "رنگ پس زمینه نوار کناری در پنل کاربری"
+
+#~ msgid "Sidebar link color that show in panel"
+#~ msgstr "رنگ لینک ها در نوار کناری پنل کاربری"
+
+#~ msgid "Dashboard Widgets"
+#~ msgstr "ویجت‌های داشبورد"
+
+#~ msgid "Hide register day count widget"
+#~ msgstr "مخفی کردن ویجت روز‌هایی که عضو هستید"
+
+#~ msgid "Hide Comment widget"
+#~ msgstr "مخفی کردن ویجت تعداد نظرات"
+
+#~ msgid "Hide Woocommerce widget"
+#~ msgstr "مخفی کردن ویجت ووکامرس"
+
+#~ msgid "Hide EDD widget"
+#~ msgstr "مخفی کردن ویجت EDD"
+
+#~ msgid "Hide Awesome Support widget"
+#~ msgstr "مخفی کردن ویجت افزونه تیکت"
+
+#~ msgid "Roles who can't use admin panel"
+#~ msgstr "نقش های کاربری که اجازه ی ورود به پنل مدیریت را ندارند"
+
+#~ msgid "Text that shows in top of register form"
+#~ msgstr "متنی که در بالای فرم ثبت نام نمایش داده میشود"
+
+#~ msgid "Register and other email send from this address"
+#~ msgstr ""
+#~ "از این ایمیل به عنوان فرستنده ی ایمیل ثبت نام و سایر ایمیل ها استفاده میشود"
+
+#~ msgid "User Role"
+#~ msgstr "نقش کاربری"
+
+#~ msgid "User can select this roles from list in registration form"
+#~ msgstr "کاربر میتواند این نقش ها را در فرم ثبت نام انتخاب کند"
+
+#~ msgid "For disable this feature leave this section empty!"
+#~ msgstr "برای غیرفعالسازی این مورد میتوانید این بخش را خالی بگذارید!"
+
+#~ msgid "New Airlines"
+#~ msgstr "خطوط هوایی جدید"
+
+#~ msgid "The best way to build user interface in WordPress"
+#~ msgstr "یک راه مناسب برای پیاده سازی پروفایل کاربری در وردپرس"
+
+#~ msgid "Plugin License"
+#~ msgstr "لایسنس افزونه"
+
+#~ msgid "Get your License from MihanWp in License section"
+#~ msgstr "لایسنس خود را از پنل کاربری میهن وردپرس در بخش لایسنس ها دریافت کنید"
+
+#~ msgid "Not deleted."
+#~ msgstr "حذف نشد!"
+
+#~ msgid "Download products update"
+#~ msgstr "دانلود آپدیت محصولات"
+
+#~ msgid "Priorities was changed! Save changes?"
+#~ msgstr "اولویت ها تغییر پیدا کرده است! ذخیره شود؟"
+
+#~ msgid "Social Login"
+#~ msgstr "ورود با شبکه های اجتماعی"
+
+#~ msgid ""
+#~ "For using Social login just use \"Nextend Social Login\" plugin with Mihan "
+#~ "Panel plugin."
+#~ msgstr ""
+#~ "برای استفاده از ورود با شبکه های اجتماعی کافیست از پلاگین \"Nextend Social "
+#~ "Login\" در کنار پلاگین میهن پنل استفاده کنید."
+
+#~ msgid "Click for installing"
+#~ msgstr "برای نصب کلیک کنید"
+
+#~ msgid "No any data saved!"
+#~ msgstr "هیچ داده ای ذخیره نشد!"
+
+#~ msgid "List"
+#~ msgstr "لیست"
+
+#~ msgid "Company Name"
+#~ msgstr "نام شرکت"
+
+#~ msgid "Address 1"
+#~ msgstr "آدرس شماره یک"
+
+#~ msgid "City"
+#~ msgstr "شهر"
+
+#~ msgid "Zip Code"
+#~ msgstr "کد پستی"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "Link"
+#~ msgstr "لینک"
+
+#~ msgid "Shortcode or Content"
+#~ msgstr "کد کوتاه"
+
+#~ msgid "Credit"
+#~ msgstr "اعتبار"
+
+#~ msgid "ZIP"
+#~ msgstr "فشرده"
+
+#~ msgid "Enter user panel url"
+#~ msgstr "Url پنل کاربر را وارد کنید"
+
+#~ msgid ""
+#~ "This url or slug must equal to user panel page. We recommended don't change "
+#~ "it!"
+#~ msgstr ""
+#~ "این url و یا نامک باید با صفحه پنل کاربری برابر باشد. توصیه می کنیم آن را "
+#~ "تغییر ندهید!"
+
+#~ msgid "Complete your profile"
+#~ msgstr "پروفایل خود را تکمیل کنید"
+
+#~ msgid "Write anything about yourself"
+#~ msgstr "چیزی در مورد خودتون بنویسید"
+
+#~ msgid "Day "
+#~ msgstr "روز "
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Username: "
+#~ msgstr "نام کاربری: "
+
+#~ msgid "First Name: "
+#~ msgstr "نام: "
+
+#~ msgid "Last Name: "
+#~ msgstr "نام خانوادگی: "
+
+#~ msgid "Error:"
+#~ msgstr "خطا:"
+
+#~ msgid "Use wordpress password"
+#~ msgstr "استفاده از رمز وردپرس"
+
+#~ msgid "phone must not be empty"
+#~ msgstr "شماره تلفن نباید خالی باشد"
+
+#~ msgid "Today"
+#~ msgstr "امروز"

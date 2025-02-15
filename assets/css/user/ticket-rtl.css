@@ -1,0 +1,17 @@
+.mihanticket .mihanticket-list > .items > .item .inner-data .content .main-content-value::after {
+  right: -5px;
+  left: auto;
+}
+.mihanticket .mihanticket-list > .items > .item .inner-data .content .replies .item::before {
+  right: -5px;
+  left: auto;
+}
+.mihanticket .mihanticket-list > .items > .item .inner-data .content .replies .item.other::before {
+  left: -5px;
+  right: auto;
+}
+.mihanticket .mihanticket-list > .items > .item .status > span {
+  float: left;
+}
+
+/*# sourceMappingURL=ticket-rtl.css.map */

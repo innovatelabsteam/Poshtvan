@@ -1,0 +1,523 @@
+@keyframes show_alert {
+  0% {
+    right: -120%;
+  }
+  100% {
+    right: 0;
+  }
+}
+.admin-mihan-ticket a {
+  text-decoration: none;
+}
+.admin-mihan-ticket.mwtc_rtl .search input {
+  text-align: right;
+}
+.admin-mihan-ticket.deactive {
+  position: relative;
+}
+.admin-mihan-ticket.deactive .mwtc_wrapper {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.admin-mihan-ticket.deactive .waiting-msg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10000;
+}
+.admin-mihan-ticket .waiting-msg {
+  display: none;
+}
+.admin-mihan-ticket .mwtc_wrapper {
+  background-color: white;
+  border: 1px solid #d4d4d4;
+  min-height: 100px;
+  height: 90vh;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+.admin-mihan-ticket .mwtc_wrapper .content {
+  width: 75%;
+  height: 100%;
+  position: relative;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content {
+  height: 100%;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .solve {
+  color: #00C178;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 50px;
+  border-radius: 4px;
+  background-color: rgba(0, 193, 120, 0.1882352941);
+  box-shadow: 0 7px 10px rgba(0, 193, 120, 0.1254901961);
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .user-email {
+  font-size: 14px;
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .site-data .data {
+  background: white;
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .site-data .data .field {
+  margin: 5px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .site-data .data .field .value {
+  background: #eaeaea;
+  padding: 4px 6px;
+  cursor: copy;
+  border-radius: 4px;
+  direction: ltr;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .site-data .data.hide {
+  display: none;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .topbar .ticket_url {
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper {
+  padding: 25px 50px;
+  margin-top: 75px;
+  overflow-y: auto;
+  height: calc(100% - 125px);
+  position: relative;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper p {
+  overflow-anchor: auto;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .product-item {
+  padding: 10px;
+  background: #ececec;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .product-item .value {
+  font-weight: bold;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .order-list {
+  margin-bottom: 20px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .order-list select {
+  width: 260px;
+  height: 10px;
+  border: 1px solid #d4d4d4;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .extra-fields {
+  margin-bottom: 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .extra-fields > div {
+  margin: 5px 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .extra-fields .value {
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .mihanticket-responses {
+  width: 100%;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .mihanticket-responses .mihanticket-response {
+  display: inline-block;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .mihanticket-responses .mihanticket-response .title {
+  background: #efefef;
+  display: inline-block !important;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .mihanticket-responses .mihanticket-response .content {
+  display: none !important;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .mihanticket-responses .mihanticket-response .content * {
+  display: none !important;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply .submit-reply {
+  line-height: 45px;
+  color: #fff;
+  padding: 0 30px;
+  display: inline-block;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  background: #4a6dfe;
+  margin: 10px auto;
+  min-width: 30%;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 7px 15px rgba(74, 109, 254, 0.3137254902);
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .new-reply textarea {
+  width: 100%;
+  min-height: 300px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  font-size: 18px;
+  line-height: 2em;
+  padding: 20px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .ticket {
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f3f4fd;
+  margin-bottom: 20px;
+  position: relative;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .ticket::after {
+  background: #f3f4fd;
+  width: 15px;
+  height: 15px;
+  content: " ";
+  display: block;
+  left: -5px;
+  top: 30px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .ticket .user-data .date {
+  opacity: 0.6;
+  font-size: 16px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .ticket .ticket-title {
+  background: #d1dee7;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 7px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .ticket .ticket-content {
+  display: block;
+  margin-top: 20px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .attachment_file a {
+  color: #35495C;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies {
+  display: flex;
+  flex-direction: column;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item {
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f3f4fd;
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item::after {
+  background: #f3f4fd;
+  width: 15px;
+  height: 15px;
+  content: " ";
+  display: block;
+  left: -5px;
+  top: 30px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other {
+  align-self: flex-end;
+  background: #0885ff;
+  border-radius: 20px;
+  color: #fff;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other::after {
+  background: #0885ff;
+  right: -5px;
+  left: auto;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other .user-data {
+  flex-direction: row-reverse;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other a,
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other span,
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.other p {
+  color: white;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.own a,
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.own span,
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.own p {
+  color: #35495C;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item.own .attachment_file a {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item p {
+  font-size: 18px;
+  line-height: 2em;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .user-data {
+  display: flex;
+  align-items: center;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .user-data .avatar {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 5px 7px rgba(28, 76, 156, 0.1);
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .user-data .display-name {
+  margin: 0 5px;
+  font-size: 18px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .user-data .date {
+  opacity: 0.6;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .user-data .edit-ticket {
+  cursor: pointer;
+  margin: 0 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #126aa2;
+  padding: 5px 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item textarea {
+  width: 100%;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .edit-wrapper .action-btn {
+  color: white;
+  border-radius: 3px;
+  width: 50px;
+  cursor: pointer;
+  margin: 5px;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .edit-wrapper .action-btn.ok {
+  background-color: #00C178;
+}
+.admin-mihan-ticket .mwtc_wrapper .content .item-content .ticket-content-wrapper .replies .item .edit-wrapper .action-btn.cancel {
+  background-color: #ff4b6d;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar {
+  width: 25%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #433b5d;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item {
+  cursor: pointer;
+  align-items: center;
+  display: block;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item:hover, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item:hover {
+  background-color: rgba(255, 255, 255, 0.1254901961);
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item.active, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item.active {
+  background-color: rgba(255, 255, 255, 0.1254901961);
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .status, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .status {
+  background-color: #d4d4d4;
+  width: 7px;
+  height: 60px;
+  float: left;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .status.pending, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .status.pending {
+  background-color: #00adff;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .status.investigation, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .status.investigation {
+  background-color: #ff8100;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .status.answered, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .status.answered {
+  background-color: #77c100;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .items-wrapper .item .title, .admin-mihan-ticket .mwtc_wrapper .sidebar .search-result .item .title {
+  font-size: 15px;
+  margin: 0 10px;
+  line-height: 60px;
+  color: #fff;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search input {
+  width: 100%;
+  background-color: #393250;
+  border: 1px solid #36304a;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  padding: 10px;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search input::placeholder {
+  color: #ffffff87;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search .filter-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  background: #393250;
+  border: 1px solid #36304a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .search .filter-icon img {
+  filter: brightness(10);
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section {
+  display: none;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper {
+  background: #393250;
+  display: flex;
+  padding: 15px;
+  color: white;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .filter-items {
+  flex: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .filter-items .filter-item {
+  text-wrap: nowrap;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .filter-items .filter-item label {
+  background-color: #433b5d;
+  padding: 5px 3px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .filter-items .filter-item input[type=checkbox] {
+  display: none;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .filter-items .filter-item input[type=checkbox]:checked ~ label {
+  color: #393250;
+  background: white;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .apply-filters {
+  text-align: center;
+  padding: 10px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .filters-section .filter-items-wrapper .apply-filters.disable {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .load-more {
+  display: none;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .load-more.active {
+  cursor: pointer;
+}
+.admin-mihan-ticket .mwtc_wrapper .sidebar .load-more:not(.active) {
+  pointer-events: none;
+}
+.admin-mihan-ticket select {
+  height: 50px;
+}
+.admin-mihan-ticket .mihanticket-alerts-wrapper {
+  position: fixed;
+  width: 350px;
+  min-height: 150px;
+  z-index: 100;
+  pointer-events: none;
+  right: 10px;
+  bottom: 10px;
+}
+.admin-mihan-ticket .mihanticket-alerts-wrapper .alert-item {
+  margin: 3px 0;
+  padding: 15px;
+  font-size: 18px;
+  animation: show_alert 0.8s ease-in-out;
+  position: relative;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.968627451);
+  color: #fff;
+}
+.admin-mihan-ticket .mihanticket-alerts-wrapper .alert-item.success-alert {
+  background-color: #00C178;
+  box-shadow: 0 7px 20px rgba(0, 193, 120, 0.3764705882);
+}
+.admin-mihan-ticket .mihanticket-alerts-wrapper .alert-item.error-alert {
+  background-color: #ff4b6d;
+  box-shadow: 0 7px 20px rgba(255, 75, 109, 0.3764705882);
+}
+.admin-mihan-ticket .file_field {
+  width: 90%;
+  background: #f3f4fd;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 7px;
+}
+.admin-mihan-ticket .ticket-product-notice {
+  margin: 1rem 0;
+  background-color: #ffb480;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000;
+}
+
+.mihanticket-wait {
+  color: #ccc;
+  text-align: center;
+  display: block;
+  font-weight: 100;
+  width: 100%;
+  font-size: 50px;
+  line-height: 10em;
+}
+
+/*# sourceMappingURL=ticket.css.map */
